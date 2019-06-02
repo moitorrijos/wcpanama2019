@@ -17,8 +17,11 @@ header.site-header
 	align-items: center
 	justify-content: space-between
 	
-nav.site-navigation
-	@extend header.site-header
+nav.site-navigation ul.menu
+	@extend header.site-header 
+	list-style: none
+	paddin: 0
+	
 	
 #main
 	max-width: 1000px
