@@ -1,5 +1,4 @@
 @import 'variables'
-@import 'font-face' 
 
 body
 	margin: 0
@@ -7,10 +6,7 @@ body
 	font-size: 16px
 	background: lighten($clear-gray, 15%)
 	color: $dark-gray
-	
-	&.home
-		header.site-header
-			background: url()
+
 a
 	color: $dark-blue
 	
@@ -19,11 +15,15 @@ header.site-header
 	flex-flow: row
 	align-items: center
 	justify-content: space-between 
-	padding: 0 60px 
+	padding: 0 60px
+	
+	hgroup
+		height: 72px
+		padding-left: 100px
+		background: url('https://2019.panamacity.wordcamp.org/files/2019/06/worcamp-header-logo.png') no-repeat left center
 	
 	h1, h2
 		margin: 0
-		font-family: 'Panama Light'
 			
 	h1.site-title
 		font-size: 2.6em
@@ -37,7 +37,7 @@ header.site-header
 ul.menu
 	@extend header.site-header 
 	list-style: none
-	paddin: 0
+	padding: 0
 	
 	
 #main
