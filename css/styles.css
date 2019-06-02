@@ -26,7 +26,7 @@ header.site-header, ul.menu {
   header.site-header h1, ul.menu h1, header.site-header h2, ul.menu h2 {
     margin: 0; }
   header.site-header h1.site-title, ul.menu h1.site-title {
-    font-size: 2.4rem; }
+    font-size: 2.2rem; }
   header.site-header h2.site-description, ul.menu h2.site-description {
     font-size: 1rem; }
   header.site-header .assistive-text, ul.menu .assistive-text {
@@ -36,6 +36,7 @@ ul.menu {
   list-style: none;
   padding: 0; }
   ul.menu a {
+    font-size: 0.9rem;
     display: block;
     padding: 20px 10px; }
 
