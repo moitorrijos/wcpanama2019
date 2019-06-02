@@ -54,3 +54,11 @@ ul.menu {
       height: 4px;
       top: 100%;
       background: white; }
+
+.hero-section {
+  height: 75vh;
+  width: 100%;
+  background: #0000e2 url("https://2019.panamacity.wordcamp.org/files/2019/06/wc-ciudad-panama-hero-bg-v1.jpg") no-repeat center top;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
