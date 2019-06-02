@@ -45,8 +45,9 @@ ul.menu {
     ul.menu li:after {
       position: absolute;
       width: 100%;
+      height: 4px;
       top: 100%;
-      border: 3px solid white; }
+      background: white; }
 
 #main {
   max-width: 1000px;
