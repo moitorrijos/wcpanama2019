@@ -6,18 +6,21 @@ body {
   color: #3E3E3E; }
 
 a {
-  color: #074080; }
+  color: #0000e2; }
 
 header.site-header, ul.menu {
   display: flex;
   flex-flow: row;
   align-items: center;
   justify-content: space-between;
-  padding: 0 60px; }
+  padding: 0 60px;
+  color: #0000e2; }
+  header.site-header a, ul.menu a {
+    text-decoration: none; }
   header.site-header hgroup, ul.menu hgroup {
     height: 72px;
     padding-left: 100px;
-    background: url("https://2019.panamacity.wordcamp.org/files/2019/06/worcamp-header-logo.png") no-repeat left center; }
+    background: url("https://2019.panamacity.wordcamp.org/files/2019/06/worcamp-pty-logo-v3.png") no-repeat left center; }
   header.site-header h1, ul.menu h1, header.site-header h2, ul.menu h2 {
     margin: 0; }
   header.site-header h1.site-title, ul.menu h1.site-title {
