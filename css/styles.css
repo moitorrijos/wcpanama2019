@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Panama Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Panama Light"), url("https://wcpanama2019.s3.amazonaws.com/Panama-Light.woff") format("woff"); }
+
 body {
   margin: 0;
   font-family: "Century Gothic",CenturyGothic,AppleGothic,monospace;
@@ -17,7 +23,8 @@ header.site-header, ul.menu {
   justify-content: space-between;
   padding: 0 60px; }
   header.site-header h1, ul.menu h1, header.site-header h2, ul.menu h2 {
-    margin: 0; }
+    margin: 0;
+    font-family: 'Panama Light'; }
   header.site-header h1.site-title, ul.menu h1.site-title {
     font-size: 2.6em; }
   header.site-header h2.site-description, ul.menu h2.site-description {
