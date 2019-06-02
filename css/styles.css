@@ -34,6 +34,7 @@ header.site-header, ul.menu {
     display: none; }
 
 ul.menu {
+  background: transparent;
   list-style: none;
   padding: 0; }
   ul.menu a {
