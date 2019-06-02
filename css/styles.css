@@ -19,7 +19,7 @@ header.site-header, ul.menu {
   align-items: center;
   justify-content: space-between;
   padding: 0 60px;
-  background: linear-gradient(#6ad3d5, #041178);
+  background: linear-gradient(#0618a9, #041178);
   color: white; }
   header.site-header a, ul.menu a {
     text-decoration: none;
