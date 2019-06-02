@@ -50,10 +50,14 @@ ul.menu
 		font-size: 0.9rem
 		display: block
 		padding: 20px 10px
-		
-	&:last-child li a
-		text-shadow: 0 0 8px transparentize($red, 0.5)
 	
+	li
+		position: relative
+		&:after
+			position: absolute
+			width: 100%
+			top: 100%
+			border: 3px solid white
 	
 #main
 	max-width: 1000px

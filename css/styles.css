@@ -40,8 +40,13 @@ ul.menu {
     font-size: 0.9rem;
     display: block;
     padding: 20px 10px; }
-  ul.menu:last-child li a {
-    text-shadow: 0 0 8px rgba(251, 2, 7, 0.5); }
+  ul.menu li {
+    position: relative; }
+    ul.menu li:after {
+      position: absolute;
+      width: 100%;
+      top: 100%;
+      border: 3px solid white; }
 
 #main {
   max-width: 1000px;
