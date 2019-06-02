@@ -65,4 +65,11 @@ ul.menu {
   background-size: cover;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  color: white;
+  text-shadow: 0 0 8px rgba(4, 17, 120, 0.75); }
+  .hero-section a {
+    display: block;
+    border-radius: 50px;
+    border: 2px solid white;
+    padding: 8px 20px; }
