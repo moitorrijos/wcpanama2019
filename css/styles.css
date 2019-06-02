@@ -13,7 +13,10 @@ header.site-header, ul.menu {
   display: flex;
   flex-flow: row;
   align-items: center;
-  justify-content: space-between; }
+  justify-content: space-between;
+  padding: 40px 60px; }
+  header.site-header h1, ul.menu h1, header.site-header h2, ul.menu h2 {
+    margin: 0; }
   header.site-header .assistive-text, ul.menu .assistive-text {
     display: none; }
 
