@@ -3,13 +3,13 @@ body {
   font-family: "Century Gothic",CenturyGothic,AppleGothic,monospace;
   background: white;
   color: #3E3E3E; }
-  body.home header.site-header {
+  body.home header.site-header, body.home nav.site-navigation {
     background: url(); }
 
 a {
   color: #074080; }
 
-header.site-header {
+header.site-header, nav.site-navigation {
   display: flex;
   flex-flow: row;
   align-items: center;
