@@ -6,7 +6,7 @@ body {
   color: #3E3E3E; }
 
 a {
-  color: #0000e2; }
+  color: #041178; }
 
 #main {
   max-width: 1000px;
@@ -19,7 +19,7 @@ header.site-header, ul.menu {
   align-items: center;
   justify-content: space-between;
   padding: 0 60px;
-  background: linear-gradient(#6ad3d5, #0000e2);
+  background: linear-gradient(#6ad3d5, #041178);
   color: white; }
   header.site-header a, ul.menu a {
     text-decoration: none;
@@ -58,8 +58,8 @@ ul.menu {
 .hero-section {
   height: 75vh;
   width: 100%;
-  background-color: #0000e2;
-  background-image: url("https://2019.panamacity.wordcamp.org/files/2019/06/wc-ciudad-panama-hero-bg-v1.jpg");
+  background-color: #041178;
+  background-image: url("https://2019.panamacity.wordcamp.org/files/2019/06/wc-ciudad-panama-hero-bg-v2.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
