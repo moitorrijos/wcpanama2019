@@ -19,7 +19,7 @@ header.site-header, ul.menu {
     text-decoration: none; }
   header.site-header hgroup, ul.menu hgroup {
     height: 72px;
-    padding-left: 100px;
+    padding-left: 200px;
     background: url("https://2019.panamacity.wordcamp.org/files/2019/06/worcamp-pty-logo-v3.png") no-repeat left center; }
   header.site-header h1, ul.menu h1, header.site-header h2, ul.menu h2 {
     margin: 0; }
