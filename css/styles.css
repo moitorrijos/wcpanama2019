@@ -1,7 +1,8 @@
 body {
-  font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
-  background: paleviolet;
-  color: #657382; }
+  margin: 0;
+  font-family: "Century Gothic",CenturyGothic,AppleGothic,monospace;
+  background: #e5e5e5;
+  color: #3E3E3E; }
 
 a {
   color: LightCoral; }
