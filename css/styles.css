@@ -69,7 +69,11 @@ ul.menu {
   align-items: center;
   color: white;
   text-shadow: 0 0 8px rgba(4, 17, 120, 0.75); }
+  .hero-section h2, .hero-section h3 {
+    margin: 4px 0; }
   .hero-section a {
+    color: white;
+    text-decoration: none;
     display: block;
     border-radius: 50px;
     border: 2px solid white;
