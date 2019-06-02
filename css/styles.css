@@ -3,11 +3,19 @@ body {
   font-family: "Century Gothic",CenturyGothic,AppleGothic,monospace;
   background: white;
   color: #3E3E3E; }
+  body.home header.site-header {
+    background: url(); }
 
 a {
   color: #074080; }
 
-.site {
+header.site-header {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between; }
+
+#main {
   max-width: 1000px;
   padding: 0 40px;
   margin: 0 auto; }
