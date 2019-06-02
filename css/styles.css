@@ -40,7 +40,7 @@ ul.menu {
     font-size: 0.9rem;
     display: block;
     padding: 20px 10px; }
-  ul.menu:last-child a {
+  ul.menu:last-child li a {
     text-shadow: 0 0 8px rgba(251, 2, 7, 0.5); }
 
 #main {
