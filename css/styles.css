@@ -33,6 +33,9 @@ header.site-header, ul.menu {
 ul.menu {
   list-style: none;
   padding: 0; }
+  ul.menu a {
+    display: block;
+    padding: 20px 40px; }
 
 #main {
   max-width: 1000px;
