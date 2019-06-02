@@ -77,4 +77,5 @@ ul.menu {
     display: block;
     border-radius: 50px;
     border: 2px solid white;
-    padding: 8px 20px; }
+    padding: 8px 20px;
+    margin-top: 12px; }
