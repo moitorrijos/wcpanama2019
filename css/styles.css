@@ -14,7 +14,7 @@ header.site-header, ul.menu {
   flex-flow: row;
   align-items: center;
   justify-content: space-between; }
-  header.site-header.assistive-text, ul.assistive-text.menu {
+  header.site-header .assistive-text, ul.menu .assistive-text {
     display: none; }
 
 ul.menu {
