@@ -3,19 +3,21 @@ body {
   font-family: "Century Gothic",CenturyGothic,AppleGothic,monospace;
   background: white;
   color: #3E3E3E; }
-  body.home header.site-header, body.home nav.site-navigation ul.menu, nav.site-navigation body.home ul.menu {
+  body.home header.site-header, body.home ul.menu {
     background: url(); }
 
 a {
   color: #074080; }
 
-header.site-header, nav.site-navigation ul.menu {
+header.site-header, ul.menu {
   display: flex;
   flex-flow: row;
   align-items: center;
   justify-content: space-between; }
+  header.site-header.assistive-text, ul.assistive-text.menu {
+    display: none; }
 
-nav.site-navigation ul.menu {
+ul.menu {
   list-style: none;
   paddin: 0; }
 
