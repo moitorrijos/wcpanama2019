@@ -17,7 +17,8 @@ header.site-header, ul.menu {
   background: #0000e2;
   color: white; }
   header.site-header a, ul.menu a {
-    text-decoration: none; }
+    text-decoration: none;
+    color: white; }
   header.site-header hgroup, ul.menu hgroup {
     height: 72px;
     padding-left: 200px;
