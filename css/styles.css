@@ -1,8 +1,12 @@
 body {
   margin: 0;
   font-family: "Century Gothic",CenturyGothic,AppleGothic,monospace;
-  background: #e5e5e5;
+  background: white;
   color: #3E3E3E; }
 
 a {
-  color: LightCoral; }
+  color: #08ffff; }
+
+.site {
+  max-width: 1000px;
+  margin: 0 auto; }
