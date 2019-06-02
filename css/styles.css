@@ -8,6 +8,11 @@ body {
 a {
   color: #0000e2; }
 
+#main {
+  max-width: 1000px;
+  padding: 0 40px;
+  margin: 0 auto; }
+
 header.site-header, ul.menu {
   display: flex;
   flex-flow: row;
@@ -49,8 +54,3 @@ ul.menu {
       height: 4px;
       top: 100%;
       background: white; }
-
-#main {
-  max-width: 1000px;
-  padding: 0 40px;
-  margin: 0 auto; }
