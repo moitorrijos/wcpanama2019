@@ -9,6 +9,18 @@ body {
 a {
   color: #041178; }
 
+h1 {
+  font-size: 2rem;
+  margin: 1rem 0; }
+
+h2 {
+  font-size: 1.6rem;
+  margin: 1rem 0; }
+
+h3, h4, h5, h6 {
+  font-size: 1.4rem;
+  margin: 0.7rem; }
+
 #main {
   max-width: 1000px;
   padding: 0 40px;
