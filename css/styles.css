@@ -19,7 +19,7 @@ header.site-header, ul.menu {
   align-items: center;
   justify-content: space-between;
   padding: 0 60px;
-  background: linear-gradient(#0618a9, #041178);
+  background: linear-gradient(#0618a9 0%, #041178 80%, #041178);
   color: white; }
   header.site-header a, ul.menu a {
     text-decoration: none;
@@ -27,7 +27,7 @@ header.site-header, ul.menu {
   header.site-header hgroup, ul.menu hgroup {
     height: 72px;
     padding-left: 200px;
-    background: url("https://2019.panamacity.wordcamp.org/files/2019/06/worcamp-pty-logo-white.png") no-repeat left center; }
+    background: url("https://2019.panamacity.wordcamp.org/files/2019/06/worcamp-pty-logo-white.png") no-repeat left top; }
   header.site-header h1, ul.menu h1, header.site-header h2, ul.menu h2 {
     margin: 0; }
   header.site-header h1.site-title, ul.menu h1.site-title {
@@ -56,7 +56,7 @@ ul.menu {
       background: white; }
 
 .hero-section {
-  height: 75vh;
+  height: 80vh;
   width: 100%;
   background-color: #041178;
   background-image: url("https://2019.panamacity.wordcamp.org/files/2019/06/wc-ciudad-panama-hero-bg-v2.jpg");
