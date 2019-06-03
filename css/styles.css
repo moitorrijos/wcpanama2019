@@ -102,3 +102,6 @@ ul.menu {
     padding: 1rem 2rem;
     margin-top: 12px;
     background: rgba(4, 17, 120, 0.85); }
+
+#archives, #search, #meta {
+  display: none; }
