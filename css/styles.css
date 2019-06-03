@@ -78,4 +78,5 @@ ul.menu {
     border-radius: 50px;
     border: 2px solid white;
     padding: 8px 20px;
-    margin-top: 12px; }
+    margin-top: 12px;
+    background: rgba(4, 17, 120, 0.25); }
