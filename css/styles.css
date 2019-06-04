@@ -35,7 +35,7 @@ p {
   padding: 20px 40px 40px;
   margin: 0 auto;
   display: flex;
-  flex-flow: row;
+  flex-flow: row wrap;
   justify-content: space-between; }
 
 #primary {
@@ -54,7 +54,7 @@ p {
 
 .wcorg-organizer-description {
   display: flex;
-  flex-flow: row;
+  flex-flow: row wrap;
   justify-content: space-between;
   align-items: end; }
   .wcorg-organizer-description img {
@@ -66,7 +66,7 @@ p {
 
 header.site-header, ul.menu {
   display: flex;
-  flex-flow: row;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
   padding: 0 60px;
@@ -120,7 +120,7 @@ body.home #main {
   justify-content: space-between;
   margin-bottom: 20px; }
   .cuadros-inicio .cuadro {
-    width: 30%; }
+    width: 300px; }
     .cuadros-inicio .cuadro h3 {
       line-height: 1.1; }
 
@@ -163,7 +163,7 @@ footer.site-footer {
     font-style: italic; }
   footer.site-footer .site-info {
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: space-between;
     padding: 8px 0;
     font-size: 0.8rem; }
