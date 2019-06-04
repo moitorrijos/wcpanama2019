@@ -58,6 +58,8 @@ p {
   justify-content: space-between;
   align-items: end; }
   .wcorg-organizer-description img {
+    width: 100px;
+    height: 100px;
     margin-right: 20px; }
 
 header.site-header, ul.menu {
