@@ -38,11 +38,12 @@ p {
 #secondary {
   width: 20%; }
 
-body.home #main #primary {
-  width: 100%; }
-
-body.home #main #secondary {
-  display: none; }
+body.home #main {
+  display: block; }
+  body.home #main #primary {
+    width: 100%; }
+  body.home #main #secondary {
+    display: none; }
 
 .wcorg-organizer-description {
   display: flex;
