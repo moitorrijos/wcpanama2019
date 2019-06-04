@@ -38,6 +38,14 @@ p {
 #secondary {
   width: 20%; }
 
+.wcorg-organizers {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between; }
+
+.wcorg-organizer {
+  width: 45%; }
+
 .wcorg-organizer-description {
   display: flex;
   flex-flow: row;
@@ -100,7 +108,8 @@ body.home #main {
 .cuadros-inicio {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-bottom: 20px; }
   .cuadros-inicio .cuadro {
     width: 30%; }
 
