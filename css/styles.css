@@ -38,7 +38,8 @@ h3, h4, h5, h6 {
 .wcorg-organizer-description {
   display: flex;
   flex-flow: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: end; }
   .wcorg-organizer-description img {
     margin-right: 20px; }
 
@@ -48,7 +49,7 @@ header.site-header, ul.menu {
   align-items: center;
   justify-content: space-between;
   padding: 0 60px;
-  background: linear-gradient(#061bc2, #041178);
+  background: #041178;
   color: white; }
   header.site-header a, ul.menu a {
     text-decoration: none;
@@ -116,6 +117,7 @@ ul.menu {
   display: none; }
 
 footer.site-footer {
+  margin-top: 40px;
   padding: 40px 60px;
   color: white;
   background: #041178; }
