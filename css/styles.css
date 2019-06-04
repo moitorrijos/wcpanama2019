@@ -38,13 +38,6 @@ p {
 #secondary {
   width: 20%; }
 
-body.home #main {
-  flex-flow: column; }
-  body.home #main #primary {
-    width: 100%; }
-  body.home #main #secondary {
-    display: none; }
-
 .wcorg-organizer-description {
   display: flex;
   flex-flow: row;
@@ -96,6 +89,20 @@ ul.menu {
       height: 4px;
       top: 100%;
       background: white; }
+
+body.home #main {
+  flex-flow: column; }
+  body.home #main #primary {
+    width: 100%; }
+  body.home #main #secondary {
+    display: none; }
+
+.cuadros-inicio {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between; }
+  .cuadros-inicio .cuadro {
+    width: 30%; }
 
 .hero-section {
   height: 80vh;
