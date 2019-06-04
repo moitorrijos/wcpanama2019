@@ -107,3 +107,14 @@ ul.menu {
 
 #archives, #search, #meta {
   display: none; }
+
+footer.site-footer {
+  padding: 40px 60px;
+  color: white; }
+  footer.site-footer a {
+    color: white; }
+  footer.site-footer .site-info {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    padding: 40px 0; }
