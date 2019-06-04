@@ -39,7 +39,7 @@ p {
   width: 20%; }
 
 body.home #main {
-  display: block; }
+  flex-flow: column; }
   body.home #main #primary {
     width: 100%; }
   body.home #main #secondary {
