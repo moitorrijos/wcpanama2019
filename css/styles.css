@@ -47,13 +47,14 @@ header.site-header, ul.menu {
     text-decoration: none;
     color: white; }
   header.site-header hgroup, ul.menu hgroup {
-    height: 72px;
+    height: 50px;
     padding-left: 200px;
-    background: url("https://2019.panamacity.wordcamp.org/files/2019/06/worcamp-pty-logo-white.png") no-repeat left bottom; }
+    background: url("https://2019.panamacity.wordcamp.org/files/2019/06/worcamp-pty-logo-white.png") no-repeat left bottom;
+    background-size: contain; }
   header.site-header h1, ul.menu h1, header.site-header h2, ul.menu h2 {
     margin: 0; }
   header.site-header h1.site-title, ul.menu h1.site-title {
-    font-size: 2.2rem;
+    font-size: 2rem;
     margin-top: 4px; }
   header.site-header h2.site-description, ul.menu h2.site-description {
     font-size: 1rem; }
