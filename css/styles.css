@@ -26,7 +26,7 @@ p {
 
 #main {
   max-width: 1000px;
-  padding: 0 40px;
+  padding: 20px 40px 40px;
   margin: 0 auto;
   display: flex;
   flex-flow: row;
@@ -109,8 +109,7 @@ ul.menu {
   justify-content: center;
   align-items: center;
   color: white;
-  text-shadow: 0 0 18px #041178;
-  margin-bottom: 20px; }
+  text-shadow: 0 0 18px #041178; }
   .hero-section h2, .hero-section h3 {
     margin: 4px 0; }
   .hero-section a {
@@ -127,7 +126,6 @@ ul.menu {
   display: none; }
 
 footer.site-footer {
-  margin-top: 40px;
   padding: 40px 60px;
   color: white;
   background: #041178; }
