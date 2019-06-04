@@ -106,7 +106,8 @@ ul.menu {
   justify-content: center;
   align-items: center;
   color: white;
-  text-shadow: 0 0 18px #041178; }
+  text-shadow: 0 0 18px #041178;
+  margin-bottom: 40px; }
   .hero-section h2, .hero-section h3 {
     margin: 4px 0; }
   .hero-section a {
