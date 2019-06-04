@@ -118,4 +118,7 @@ footer.site-footer {
     display: flex;
     flex-flow: row;
     justify-content: space-around;
-    padding: 40px 0; }
+    padding: 8px 0;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-style: italic; }
