@@ -163,3 +163,5 @@ footer.site-footer {
     justify-content: space-between;
     padding: 8px 0;
     font-size: 0.8rem; }
+    footer.site-footer .site-info span[role="separator"] {
+      display: none; }
