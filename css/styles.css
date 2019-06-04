@@ -35,6 +35,11 @@ h3, h4, h5, h6 {
 #secondary {
   width: 20%; }
 
+.wcorg-organizer-description {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between; }
+
 header.site-header, ul.menu {
   display: flex;
   flex-flow: row;
@@ -113,12 +118,12 @@ footer.site-footer {
   color: white;
   background: #041178; }
   footer.site-footer a {
-    color: white; }
+    color: white;
+    text-decoration: none;
+    font-style: italic; }
   footer.site-footer .site-info {
     display: flex;
     flex-flow: row;
     justify-content: space-around;
     padding: 8px 0;
-    text-decoration: none;
-    font-size: 0.8rem;
-    font-style: italic; }
+    font-size: 0.8rem; }
