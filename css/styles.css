@@ -40,9 +40,7 @@ h3, h4, h5, h6 {
   flex-flow: row;
   justify-content: space-between; }
   .wcorg-organizer-description img {
-    width: 20%; }
-  .wcorg-organizer-description p {
-    width: 75%; }
+    margin-right: 20px; }
 
 header.site-header, ul.menu {
   display: flex;
