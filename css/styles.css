@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Dosis:600|Montserrat:300,500&display=swap");
 body {
   margin: 0;
   font-family: "Montserrat","Century Gothic",CenturyGothic,AppleGothic,monospace;
@@ -11,20 +11,21 @@ body {
 a {
   color: #041178; }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Dosis","Century Gothic",CenturyGothic,AppleGothic,monospace;
+  font-weight: 500; }
+
 h1 {
   font-size: 2rem;
-  margin: 1rem 0;
-  font-weight: 500; }
+  margin: 1rem 0; }
 
 h2 {
   font-size: 1.6rem;
-  margin: 1rem 0;
-  font-weight: 500; }
+  margin: 1rem 0; }
 
 h3, h4, h5, h6 {
   font-size: 1.4rem;
-  margin: 0.7rem;
-  font-weight: 500; }
+  margin: 0.7rem; }
 
 p {
   max-width: 50em;
