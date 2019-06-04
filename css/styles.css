@@ -110,7 +110,8 @@ ul.menu {
 
 footer.site-footer {
   padding: 40px 60px;
-  color: white; }
+  color: white;
+  background: #041178; }
   footer.site-footer a {
     color: white; }
   footer.site-footer .site-info {
