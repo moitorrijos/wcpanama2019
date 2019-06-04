@@ -61,6 +61,8 @@ p {
     width: 100px;
     height: 100px;
     margin-right: 20px; }
+  .wcorg-organizer-description p {
+    margin-top: 0; }
 
 header.site-header, ul.menu {
   display: flex;
