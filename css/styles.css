@@ -119,6 +119,8 @@ body.home #main {
   margin-bottom: 20px; }
   .cuadros-inicio .cuadro {
     width: 30%; }
+    .cuadros-inicio .cuadro h3 {
+      line-height: 1.1; }
 
 .hero-section {
   height: 80vh;
