@@ -132,7 +132,7 @@ body.home #main {
   margin-bottom: 20px; }
   .cuadros-inicio .cuadro {
     width: 300px;
-    background: #dedede;
+    background: #E6E6E6;
     padding: 22px 30px;
     display: grid;
     grid-template-rows: 70px auto auto; }
