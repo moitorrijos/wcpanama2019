@@ -1,7 +1,20 @@
 #secondary aside.widget_text, .cuadros-inicio .cuadro {
+  width: 300px;
   background: #f3f3f3;
   padding: 22px 30px;
-  box-shadow: 0 2px 4px rgba(62, 62, 62, 0.25); }
+  box-shadow: 0 2px 4px rgba(62, 62, 62, 0.25);
+  display: grid;
+  grid-template-rows: 70px auto auto;
+  margin-bottom: 21px; }
+  #secondary aside.widget_text h3, .cuadros-inicio .cuadro h3 {
+    line-height: 1.1;
+    align-self: center; }
+  #secondary aside.widget_text a, .cuadros-inicio .cuadro a {
+    display: block;
+    text-decoration: none;
+    margin-top: 10px;
+    padding-top: 12px;
+    border-top: 1px solid #041178; }
 
 * {
   box-sizing: border-box; }
@@ -143,15 +156,12 @@ body.home #main {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  margin-top: -50px;
-  margin-bottom: 20px; }
+  margin-top: -50px; }
   .cuadros-inicio .cuadro {
     width: 300px;
     display: grid;
-    grid-template-rows: 70px auto auto; }
-    @media only screen and (max-width: 768px) {
-      .cuadros-inicio .cuadro {
-        margin-bottom: 20px; } }
+    grid-template-rows: 70px auto auto;
+    margin-bottom: 21px; }
     .cuadros-inicio .cuadro h3 {
       line-height: 1.1;
       align-self: center; }

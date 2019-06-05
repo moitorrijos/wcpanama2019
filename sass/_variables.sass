@@ -8,6 +8,20 @@ $light: 300
 $medium: 600
 
 %card
+	width: 300px
 	background: lighten($clear-gray, 5%)
 	padding: 22px 30px
 	box-shadow: 0 2px 4px transparentize($dark-gray, 0.75)
+	display: grid
+	grid-template-rows: 70px auto auto
+	margin-bottom: 21px
+	
+	h3
+		line-height: 1.1
+		align-self: center
+	a
+		display: block
+		text-decoration: none
+		margin-top: 10px
+		padding-top: 12px
+		border-top: 1px solid $dark-blue
