@@ -142,14 +142,14 @@ ul.menu {
       top: 100%;
       background: white; }
 
-body.home #main {
+body.home #main, body.page-slug-organizers #main {
   flex-flow: column;
   width: 100%; }
-  body.home #main #primary {
+  body.home #main #primary, body.page-slug-organizers #main #primary {
     width: 100%; }
-  body.home #main #secondary {
+  body.home #main #secondary, body.page-slug-organizers #main #secondary {
     display: none; }
-  body.home #main #main-content {
+  body.home #main #main-content, body.page-slug-organizers #main #main-content {
     max-width: 1000px; }
 
 .cuadros-inicio {
@@ -157,20 +157,6 @@ body.home #main {
   flex-flow: row wrap;
   justify-content: space-between;
   margin-top: -50px; }
-  .cuadros-inicio .cuadro {
-    width: 300px;
-    display: grid;
-    grid-template-rows: 70px auto auto;
-    margin-bottom: 21px; }
-    .cuadros-inicio .cuadro h3 {
-      line-height: 1.1;
-      align-self: center; }
-    .cuadros-inicio .cuadro a {
-      display: block;
-      text-decoration: none;
-      margin-top: 10px;
-      padding-top: 12px;
-      border-top: 1px solid #041178; }
 
 .hero-section {
   padding: 40px;
