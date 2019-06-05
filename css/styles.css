@@ -72,9 +72,13 @@ header.site-header, ul.menu {
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 0 60px;
+  padding: 0 40px;
   background: #041178;
   color: white; }
+  @media only screen and (max-width: 768px) {
+    header.site-header, ul.menu {
+      padding: 20px 40px;
+      flex-flow: column; } }
   header.site-header a, ul.menu a {
     text-decoration: none;
     color: white; }
