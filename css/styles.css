@@ -132,7 +132,7 @@ body.home #main {
   margin-bottom: 20px; }
   .cuadros-inicio .cuadro {
     width: 300px;
-    background: silver;
+    background: #d9d9d9;
     padding: 22px 30px;
     display: grid;
     grid-template-rows: 70px auto auto; }
@@ -144,7 +144,9 @@ body.home #main {
       align-self: center; }
     .cuadros-inicio .cuadro a {
       display: block;
-      text-decoration: none; }
+      text-decoration: none;
+      margin-top: 10px;
+      border-top: 1px solid #041178; }
 
 .hero-section {
   padding: 40px;
