@@ -112,7 +112,7 @@ header.site-header, ul.menu {
       content: '\2261';
       font-size: 1.5rem;
       position: relative;
-      top: 5px; }
+      top: 2px; }
   header.site-header a, ul.menu a {
     text-decoration: none;
     color: white; }
