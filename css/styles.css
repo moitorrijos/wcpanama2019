@@ -139,7 +139,7 @@ body.home #main {
       align-self: center; }
 
 .hero-section {
-  padding: 80px;
+  padding: 40px;
   height: 80vh;
   width: 100%;
   background-color: #041178;
@@ -152,6 +152,7 @@ body.home #main {
   justify-content: center;
   align-items: center;
   color: white;
+  text-align: center;
   text-shadow: 0 0 18px #041178; }
   .hero-section h2, .hero-section h3 {
     margin: 4px 0; }
