@@ -79,6 +79,9 @@ header.site-header, ul.menu {
     header.site-header, ul.menu {
       padding: 20px 40px;
       flex-flow: column; } }
+  header.site-header h1.menu-toggle, ul.menu h1.menu-toggle {
+    margin-top: 30px;
+    text-align: center; }
   header.site-header a, ul.menu a {
     text-decoration: none;
     color: white; }
