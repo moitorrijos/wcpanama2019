@@ -1,4 +1,4 @@
-#secondary aside.widget_text, .cuadros-inicio .cuadro {
+#secondary aside.widget_text .textwidget, .cuadros-inicio .cuadro {
   width: 300px;
   background: #f3f3f3;
   padding: 22px 30px;
@@ -6,10 +6,10 @@
   display: grid;
   grid-template-rows: 70px auto auto;
   margin-bottom: 21px; }
-  #secondary aside.widget_text h3, .cuadros-inicio .cuadro h3 {
+  #secondary aside.widget_text .textwidget h3, .cuadros-inicio .cuadro h3 {
     line-height: 1.1;
     align-self: center; }
-  #secondary aside.widget_text a, .cuadros-inicio .cuadro a {
+  #secondary aside.widget_text .textwidget a, .cuadros-inicio .cuadro a {
     display: block;
     text-decoration: none;
     margin-top: 10px;
