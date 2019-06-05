@@ -1,6 +1,7 @@
 aside.widget_text, .cuadros-inicio .cuadro {
-  background: #E6E6E6;
-  padding: 22px 30px; }
+  background: white;
+  padding: 22px 30px;
+  box-shadow: 0 2px 4px rgba(62, 62, 62, 0.5); }
 
 * {
   box-sizing: border-box; }
@@ -52,7 +53,8 @@ p {
   min-width: 300px; }
 
 #secondary {
-  width: 300px; }
+  width: 300px;
+  font-size: 0.9rem; }
 
 h1.widget-title {
   font-size: 1.4rem;
