@@ -15,8 +15,8 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
-  font-family: "Fira Sans","Century Gothic",CenturyGothic,AppleGothic,monospace;
-  font-weight: 500; }
+  font-family: "Fira Sans Condensed","Century Gothic",CenturyGothic,AppleGothic,monospace;
+  font-weight: 600; }
 
 h1 {
   font-size: 2.2rem;
