@@ -131,7 +131,8 @@ ul.menu {
   padding: 0; }
   @media only screen and (max-width: 768px) {
     ul.menu {
-      display: none; } }
+      display: none;
+      text-align: center; } }
   ul.menu a {
     font-size: 0.9rem;
     display: block;
