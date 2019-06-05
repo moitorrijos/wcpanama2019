@@ -131,6 +131,9 @@ body.home #main {
     width: 300px;
     display: grid;
     grid-template-rows: 70px auto 30px; }
+    @media only screen and (max-width: 768px) {
+      .cuadros-inicio .cuadro {
+        margin-bottom: 20px; } }
     .cuadros-inicio .cuadro h3 {
       line-height: 1.1;
       align-self: center; }
