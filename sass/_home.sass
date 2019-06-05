@@ -5,6 +5,10 @@ body.home
 			width: 100%
 		#secondary
 			display: none
+		width: 100%
+		#main-content
+			max-width: 1000px
+			
 .cuadros-inicio 
 	display: flex
 	flex-flow: row wrap
@@ -14,8 +18,7 @@ body.home
 	
 	.cuadro
 		width: 300px
-		background: $clear-gray
-		padding: 22px 30px
+		@extend %card
 		
 		display: grid
 		grid-template-rows: 70px auto auto

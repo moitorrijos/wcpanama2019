@@ -1,3 +1,7 @@
+.textwidget, .cuadros-inicio .cuadro {
+  background: #E6E6E6;
+  padding: 22px 30px; }
+
 * {
   box-sizing: border-box; }
 
@@ -14,7 +18,7 @@ a {
   color: #041178; }
 
 h1, h2, h3, h4, h5, h6 {
-  line-height: 1.2;
+  line-height: 1.1;
   font-family: "Fira Sans Condensed","Century Gothic",CenturyGothic,AppleGothic,monospace;
   font-weight: 600; }
 
@@ -48,6 +52,10 @@ p {
 
 #secondary {
   width: 30%; }
+
+h1.widget-title {
+  font-size: 1.8rem;
+  line-height: 1; }
 
 .wcorg-organizers {
   display: flex;
@@ -120,11 +128,14 @@ ul.menu {
       background: white; }
 
 body.home #main {
-  flex-flow: column; }
+  flex-flow: column;
+  width: 100%; }
   body.home #main #primary {
     width: 100%; }
   body.home #main #secondary {
     display: none; }
+  body.home #main #main-content {
+    max-width: 1000px; }
 
 .cuadros-inicio {
   display: flex;
@@ -134,8 +145,6 @@ body.home #main {
   margin-bottom: 20px; }
   .cuadros-inicio .cuadro {
     width: 300px;
-    background: #E6E6E6;
-    padding: 22px 30px;
     display: grid;
     grid-template-rows: 70px auto auto; }
     @media only screen and (max-width: 768px) {
