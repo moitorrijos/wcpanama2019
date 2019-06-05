@@ -9,13 +9,16 @@ body.home
 	display: flex
 	flex-flow: row wrap
 	justify-content: space-between
-	padding: 20px 0
+	margin-top: -50px
 	margin-bottom: 20px
 	
 	.cuadro
 		width: 300px
+		background: darken($clear-gray, 15%)
+		padding: 22px 30px
+		
 		display: grid
-		grid-template-rows: 70px auto 30px
+		grid-template-rows: 70px auto auto
 		@media only screen and (max-width: 768px)
 			margin-bottom: 20px
 		
@@ -24,5 +27,5 @@ body.home
 			align-self: center
 		a
 			display: block
-			align-self: center
+			text-decoration: none
 			
