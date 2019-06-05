@@ -129,6 +129,9 @@ ul.menu {
   background: transparent;
   list-style: none;
   padding: 0; }
+  @media only screen and (max-width: 768px) {
+    ul.menu {
+      display: none; } }
   ul.menu a {
     font-size: 0.9rem;
     display: block;
