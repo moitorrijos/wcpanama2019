@@ -142,14 +142,14 @@ ul.menu {
       top: 100%;
       background: white; }
 
-body.home #main, body.page-slug-organizadores #main {
+body.home #main, body.page-slug-organizadores.page-slug-organizadores.page-slug-organizadores #main {
   flex-flow: column;
   width: 100%; }
-  body.home #main #primary, body.page-slug-organizadores #main #primary {
+  body.home #main #primary, body.page-slug-organizadores.page-slug-organizadores.page-slug-organizadores #main #primary {
     width: 100%; }
-  body.home #main #secondary, body.page-slug-organizadores #main #secondary {
+  body.home #main #secondary, body.page-slug-organizadores.page-slug-organizadores.page-slug-organizadores #main #secondary {
     display: none; }
-  body.home #main #main-content, body.page-slug-organizadores #main #main-content {
+  body.home #main #main-content, body.page-slug-organizadores.page-slug-organizadores.page-slug-organizadores #main #main-content {
     max-width: 1000px; }
 
 .cuadros-inicio {
