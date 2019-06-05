@@ -120,9 +120,13 @@ body.home #main {
   justify-content: space-between;
   margin-bottom: 20px; }
   .cuadros-inicio .cuadro {
-    width: 300px; }
+    width: 300px;
+    display: grid;
+    grid-template-rows: 70px auto 30px; }
     .cuadros-inicio .cuadro h3 {
       line-height: 1.1; }
+    .cuadros-inicio .cuadro a {
+      display: block; }
 
 .hero-section {
   height: 80vh;
