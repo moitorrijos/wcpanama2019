@@ -148,7 +148,9 @@ ul.menu {
     ul.menu li ul.sub-menu {
       position: absolute;
       display: flex;
-      flex-flow: column; }
+      flex-flow: column;
+      padding: 0;
+      background: #020a47; }
       ul.menu li ul.sub-menu li {
         list-style: none; }
 
