@@ -193,7 +193,8 @@ ul.menu {
       background: #041178;
       transition: all 0.25s ease-in;
       visibility: hidden;
-      z-index: 5; }
+      z-index: 5;
+      white-space: nowrap; }
       ul.menu li ul.sub-menu li {
         list-style: none; }
     ul.menu li:hover ul.sub-menu {
