@@ -92,6 +92,13 @@ p {
     margin-top: 0;
     width: 300px; }
 
+table.wp-block-table {
+  width: 100%; }
+  table.wp-block-table tr {
+    border-bottom: 1px solid #E6E6E6; }
+    table.wp-block-table tr td {
+      padding: 1rem 0.5rem; }
+
 header.site-header, ul.menu {
   display: flex;
   flex-flow: row wrap;
