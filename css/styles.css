@@ -59,6 +59,15 @@ p {
   max-width: 50em;
   font-weight: 300; }
 
+#page {
+  position: relative; }
+
+header#masthead {
+  z-index: 2; }
+
+#after-header-widgets {
+  z-index: 1; }
+
 #main {
   max-width: 1120px;
   padding: 20px 40px 40px;
@@ -199,7 +208,7 @@ body.home #main, body.page-slug-organizadores.page-slug-organizadores.page-slug-
 
 .hero-section {
   padding: 40px;
-  height: 80vh;
+  height: 85vh;
   width: 100%;
   background-color: #041178;
   background-image: url("https://2019.panamacity.wordcamp.org/files/2019/06/wc-ciudad-panama-hero-bg-v3.jpg");
@@ -212,7 +221,8 @@ body.home #main, body.page-slug-organizadores.page-slug-organizadores.page-slug-
   align-items: center;
   color: white;
   text-align: center;
-  text-shadow: 0 0 18px #041178; }
+  text-shadow: 0 0 18px #041178;
+  margin-top: -120px; }
   .hero-section h2, .hero-section h3 {
     margin: 4px 0; }
   .hero-section a {
