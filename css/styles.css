@@ -1,4 +1,4 @@
-#secondary aside.widget_text .textwidget, .cuadros-inicio .cuadro {
+#primary-sidebar aside.widget_text .textwidget, .cuadros-inicio .cuadro {
   width: 300px;
   background: #f3f3f3;
   padding: 22px 30px;
@@ -6,10 +6,10 @@
   display: grid;
   grid-template-rows: 70px auto auto;
   margin-bottom: 21px; }
-  #secondary aside.widget_text .textwidget h3, .cuadros-inicio .cuadro h3 {
+  #primary-sidebar aside.widget_text .textwidget h3, .cuadros-inicio .cuadro h3 {
     line-height: 1.1;
     align-self: center; }
-  #secondary aside.widget_text .textwidget a, .cuadros-inicio .cuadro a {
+  #primary-sidebar aside.widget_text .textwidget a, .cuadros-inicio .cuadro a {
     display: block;
     text-decoration: none;
     margin-top: 10px;
@@ -68,7 +68,11 @@ p {
 #secondary {
   width: 300px;
   font-size: 0.9rem; }
-  #secondary h1.widget-title {
+
+#primary-sidebar {
+  position: sticky;
+  top: 12px; }
+  #primary-sidebar h1.widget-title {
     font-size: 1.4rem;
     line-height: 1; }
 
