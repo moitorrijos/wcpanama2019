@@ -251,7 +251,16 @@ body.home #main, body.page-slug-organizadores.page-slug-organizadores.page-slug-
 
 form.contact-form input {
   width: 80%;
-  padding: 1rem 0.5rem; }
+  padding: 0.5rem; }
+
+form.contact-form button[type="submit"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  border-radius: 40px;
+  border: 2px solid #041178;
+  color: #041178;
+  padding: 0.5rem 1rem; }
 
 footer.site-footer {
   padding: 40px 60px;
