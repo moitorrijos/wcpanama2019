@@ -61,7 +61,6 @@ ul.menu
 	
 	li
 		position: relative
-		transition: all 0.5s linear
 		
 		ul.sub-menu
 			position: absolute
@@ -70,9 +69,13 @@ ul.menu
 			padding: 0
 			opacity: 0
 			background: $dark-blue
+			transition: all 0.25s ease-in
+			visibility: hidden
 			
 			li
 				list-style: none
 				
 		&:hover ul.sub-menu
 			opacity: 1
+			visibility: visible
+			
