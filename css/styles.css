@@ -74,7 +74,7 @@ header#masthead {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  z-index: 2; }
+  z-index: 1; }
 
 #primary {
   width: 63%;
@@ -188,7 +188,8 @@ ul.menu {
       opacity: 0;
       background: #041178;
       transition: all 0.25s ease-in;
-      visibility: hidden; }
+      visibility: hidden;
+      z-index: 5; }
       ul.menu li ul.sub-menu li {
         list-style: none; }
     ul.menu li:hover ul.sub-menu {
