@@ -3,7 +3,7 @@
 
 body
 	margin: 0
-	font-family: "Montserrat","Century Gothic",CenturyGothic,AppleGothic,monospace
+	font-family: $body-font
 	font-size: 16px
 	font-style: normal
 	line-height: 1.6
@@ -15,7 +15,7 @@ a
 
 h1, h2, h3, h4, h5, h6 
 	line-height: 1.1
-	font-family: "Fira Sans Condensed","Century Gothic",CenturyGothic,AppleGothic,monospace
+	font-family: $header-font
 	font-weight: $medium
 	
 h1
@@ -85,6 +85,9 @@ table.wp-block-table
 	width: 100%
 	border-collapse: collapse
 	tr
+		&:first-child
+			td
+				font-family: 
 		td
 			padding: 1rem 0.5rem
 			border-bottom: 1px solid $clear-gray
