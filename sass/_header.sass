@@ -61,12 +61,18 @@ ul.menu
 	
 	li
 		position: relative
+		transition: all 0.25s linear
 		
 		ul.sub-menu
 			position: absolute
 			display: flex
 			flex-flow: column
 			padding: 0
+			opacity: 0
 			background: lighten($dark-blue, 5%)
+			
 			li
 				list-style: none
+				
+		&:hover ul.sub-menu
+			opacity: 1

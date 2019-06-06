@@ -144,15 +144,19 @@ ul.menu {
     display: block;
     padding: 20px 10px; }
   ul.menu li {
-    position: relative; }
+    position: relative;
+    transition: all 0.25s linear; }
     ul.menu li ul.sub-menu {
       position: absolute;
       display: flex;
       flex-flow: column;
       padding: 0;
+      opacity: 0;
       background: #051491; }
       ul.menu li ul.sub-menu li {
         list-style: none; }
+    ul.menu li:hover ul.sub-menu {
+      opacity: 1; }
 
 body.home #main, body.page-slug-organizadores.page-slug-organizadores.page-slug-organizadores #main {
   flex-flow: column;
