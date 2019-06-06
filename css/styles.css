@@ -145,11 +145,11 @@ ul.menu {
     padding: 20px 10px; }
   ul.menu li {
     position: relative; }
-    ul.menu li ul.submenu {
+    ul.menu li ul.sub-menu {
       position: absolute;
       display: flex;
       flex-flow: column; }
-      ul.menu li ul.submenu li {
+      ul.menu li ul.sub-menu li {
         list-style: none; }
 
 body.home #main, body.page-slug-organizadores.page-slug-organizadores.page-slug-organizadores #main {
