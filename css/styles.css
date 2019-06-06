@@ -177,7 +177,7 @@ ul.menu {
   ul.menu a {
     font-size: 0.9rem;
     display: block;
-    padding: 1em 2em; }
+    padding: 1em 1.2em; }
     @media only screen and (max-width: 768px) {
       ul.menu a {
         padding: 0.5em; } }
@@ -185,7 +185,8 @@ ul.menu {
     position: relative; }
     ul.menu li.boton-boletos a {
       border: 1px solid white;
-      border-radius: 2em; }
+      border-radius: 2em;
+      padding: 1em 2em; }
     ul.menu li ul.sub-menu {
       position: absolute;
       display: flex;
