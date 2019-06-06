@@ -260,7 +260,8 @@ form.contact-form button[type="submit"] {
   border-radius: 40px;
   border: 2px solid #041178;
   color: #041178;
-  padding: 0.5rem 1rem; }
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem; }
 
 footer.site-footer {
   padding: 40px 60px;
