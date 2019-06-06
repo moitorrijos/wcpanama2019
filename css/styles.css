@@ -249,6 +249,10 @@ body.home #main, body.page-slug-organizadores.page-slug-organizadores.page-slug-
 #archives, #search, #meta {
   display: none; }
 
+form.contact-form input {
+  width: 80%;
+  padding: 1rem 0.5rem; }
+
 footer.site-footer {
   padding: 40px 60px;
   color: white;
