@@ -206,6 +206,10 @@ body.home #main, body.page-slug-organizadores.page-slug-organizadores.page-slug-
   justify-content: space-between;
   margin-top: -50px; }
 
+@media screen and (max-width: 980px) {
+  body :not(.home) #primary {
+    padding-right: 30px; } }
+
 .hero-section {
   padding: 40px;
   height: 90vh;
