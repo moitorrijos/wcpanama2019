@@ -249,12 +249,9 @@ body.home #main, body.page-slug-organizadores.page-slug-organizadores.page-slug-
 #archives, #search, #meta {
   display: none; }
 
-form.contact-form input {
-  width: 80%;
-  padding: 0.75rem 1rem; }
-
 form.contact-form input, form.contact-form textarea {
   font-size: 1rem;
+  padding: 0.75rem 1rem;
   border: 2px solid #041178;
   border-radius: 4px; }
 
