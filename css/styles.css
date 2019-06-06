@@ -11,6 +11,9 @@
   @media screen and (max-width: 980px) {
     #primary-sidebar aside.widget_text .textwidget, .cuadros-inicio .cuadro {
       width: 45%; } }
+  @media screen and (max-width: 680px) {
+    #primary-sidebar aside.widget_text .textwidget, .cuadros-inicio .cuadro {
+      width: 100%; } }
   #primary-sidebar aside.widget_text .textwidget h3, .cuadros-inicio .cuadro h3 {
     line-height: 1.1;
     align-self: center; }
