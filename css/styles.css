@@ -253,6 +253,10 @@ form.contact-form input {
   width: 80%;
   padding: 0.5rem; }
 
+form.contact-form input, form.contact-form textarea {
+  border: 2px solid #041178;
+  border-radius: 4px; }
+
 form.contact-form button[type="submit"] {
   -webkit-appearance: none;
   -moz-appearance: none;
