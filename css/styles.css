@@ -1,13 +1,16 @@
 #primary-sidebar aside.widget_text .textwidget, .cuadros-inicio .cuadro {
-  width: 30%;
   min-width: 300px;
   max-width: 500px;
+  width: 30%;
   background: #f3f3f3;
   padding: 22px 30px;
   box-shadow: 0 2px 4px rgba(62, 62, 62, 0.25);
   display: grid;
   grid-template-rows: 70px auto auto;
   margin-bottom: 21px; }
+  @media screen and (max-width: 980px) {
+    #primary-sidebar aside.widget_text .textwidget, .cuadros-inicio .cuadro {
+      width: 45%; } }
   #primary-sidebar aside.widget_text .textwidget h3, .cuadros-inicio .cuadro h3 {
     line-height: 1.1;
     align-self: center; }
