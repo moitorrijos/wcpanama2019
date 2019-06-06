@@ -90,12 +90,9 @@ header#masthead {
     #secondary {
       width: 100%; } }
 
-#primary-sidebar {
-  position: sticky;
-  top: 12px; }
-  #primary-sidebar h1.widget-title {
-    font-size: 1.4rem;
-    line-height: 1; }
+#primary-sidebar h1.widget-title {
+  font-size: 1.4rem;
+  line-height: 1; }
 
 .wcorg-organizers {
   display: flex;
