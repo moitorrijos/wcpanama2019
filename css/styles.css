@@ -178,6 +178,10 @@ ul.menu {
     font-size: 0.9rem;
     display: block;
     padding: 20px 10px; }
+    ul.menu a.boton-boletos {
+      padding: 20px 30px;
+      border: 1px solid white;
+      border-radius: 8px; }
   ul.menu li {
     position: relative; }
     ul.menu li ul.sub-menu {
