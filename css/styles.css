@@ -1,4 +1,5 @@
 #primary-sidebar aside.widget_text .textwidget, .cuadros-inicio .cuadro {
+  width: 30%;
   min-width: 300px;
   max-width: 500px;
   background: #f3f3f3;
