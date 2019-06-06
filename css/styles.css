@@ -183,7 +183,7 @@ ul.menu {
     ul.menu li.boton-boletos a {
       padding: 1em 2em;
       border: 1px solid white;
-      border-radius: 8px; }
+      border-radius: 16px; }
     ul.menu li ul.sub-menu {
       position: absolute;
       display: flex;
