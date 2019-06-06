@@ -197,6 +197,12 @@ ul.menu {
       white-space: nowrap; }
       ul.menu li ul.sub-menu li {
         list-style: none; }
+      ul.menu li ul.sub-menu a {
+        padding: 1.5rem;
+        padding-right: 3rem;
+        transition: all 0.25s ease-in; }
+        ul.menu li ul.sub-menu a:hover {
+          background: ligthen(#041178, 5%); }
     ul.menu li:hover ul.sub-menu {
       opacity: 1;
       visibility: visible; }
