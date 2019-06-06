@@ -53,19 +53,17 @@ ul.menu
 	@media only screen and (max-width: 768px)
 		display: none
 		text-align: center 
-	
 	a
 		font-size: 0.9rem
 		display: block
-		padding: 1rem 2rem
-		
-		&.boton-boletos
-			padding: 20px 30px
-			border: 1px solid white
-			border-radius: 8px
-	
+		padding: 1em 2em
 	li
 		position: relative
+		
+		&.boton-boletos a
+			padding: 1em 2em
+			border: 1px solid white
+			border-radius: 8px
 		
 		ul.sub-menu
 			position: absolute
@@ -83,8 +81,8 @@ ul.menu
 				list-style: none
 				
 			a
-				padding: 1.5rem
-				padding-right: 3rem
+				padding: 1.5em
+				padding-right: 3em
 				transition: all 0.25s ease-in
 				
 				&:hover
