@@ -145,7 +145,7 @@ ul.menu {
     padding: 20px 10px; }
   ul.menu li {
     position: relative;
-    transition: all 0.25s linear; }
+    transition: all 0.5s linear; }
     ul.menu li ul.sub-menu {
       position: absolute;
       display: flex;
