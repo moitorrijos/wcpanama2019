@@ -10,7 +10,7 @@
   @media screen and (max-width: 980px) {
     #primary-sidebar aside.widget_text .textwidget, .cuadros-inicio .cuadro {
       width: 45%; } }
-  @media screen and (max-width: 680px) {
+  @media screen and (max-width: 890px) {
     #primary-sidebar aside.widget_text .textwidget, .cuadros-inicio .cuadro {
       width: 100%; } }
   #primary-sidebar aside.widget_text .textwidget h3, .cuadros-inicio .cuadro h3 {
@@ -143,11 +143,11 @@ header.site-header, ul.menu {
     font-size: 1.5rem;
     margin-top: 30px;
     text-align: center; }
-    header.site-header h1.menu-toggle:after, ul.menu h1.menu-toggle:after {
+    header.site-header h1.menu-toggle:before, ul.menu h1.menu-toggle:before {
       content: '\2261';
-      font-size: 1.5rem;
+      font-size: 1.8rem;
       position: relative;
-      top: 2px; }
+      margin-right: 10px; }
   header.site-header a, ul.menu a {
     text-decoration: none;
     color: white; }
