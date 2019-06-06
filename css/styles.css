@@ -199,7 +199,8 @@ body.home #main, body.page-slug-organizadores.page-slug-organizadores.page-slug-
   body.home #main #primary, body.page-slug-organizadores.page-slug-organizadores.page-slug-organizadores #main #primary {
     width: 100%;
     max-width: 1000px;
-    min-width: 300px; }
+    min-width: 300px;
+    text-align: center; }
   body.home #main #secondary, body.page-slug-organizadores.page-slug-organizadores.page-slug-organizadores #main #secondary {
     display: none; }
   body.home #main #main-content, body.page-slug-organizadores.page-slug-organizadores.page-slug-organizadores #main #main-content {
