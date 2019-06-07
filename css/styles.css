@@ -225,7 +225,7 @@ body.home #main, body.page-slug-organizadores.page-slug-organizadores.page-slug-
     max-width: 1000px; }
 
 body.home #primary {
-  text-align: center;
+  text-align: left;
   margin: 20px 0; }
   body.home #primary .entry-content {
     max-width: 700px;
