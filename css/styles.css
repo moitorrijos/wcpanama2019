@@ -58,6 +58,11 @@ h3, h4, h5, h6 {
 p {
   font-weight: 300; }
 
+ul {
+  padding-inline-start: 20px; }
+  ul li {
+    margin: 0.5em 0; }
+
 #page {
   position: relative; }
 
@@ -213,16 +218,18 @@ body.home #main, body.page-slug-organizadores.page-slug-organizadores.page-slug-
   body.home #main #primary, body.page-slug-organizadores.page-slug-organizadores.page-slug-organizadores #main #primary {
     width: 100%;
     max-width: 1000px;
-    min-width: 300px;
-    text-align: center;
-    margin: 20px 0; }
-    body.home #main #primary .entry-content, body.page-slug-organizadores.page-slug-organizadores.page-slug-organizadores #main #primary .entry-content {
-      max-width: 700px;
-      margin: 20px auto; }
+    min-width: 300px; }
   body.home #main #secondary, body.page-slug-organizadores.page-slug-organizadores.page-slug-organizadores #main #secondary {
     display: none; }
   body.home #main #main-content, body.page-slug-organizadores.page-slug-organizadores.page-slug-organizadores #main #main-content {
     max-width: 1000px; }
+
+body.home #primary {
+  text-align: center;
+  margin: 20px 0; }
+  body.home #primary .entry-content {
+    max-width: 700px;
+    margin: 20px auto; }
 
 .cuadros-inicio {
   display: flex;
