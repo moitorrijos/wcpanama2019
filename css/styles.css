@@ -130,10 +130,12 @@ table.wp-block-table {
     border-bottom: 1px solid #E6E6E6; }
 
 .wcorg-sponsors h2 {
-  font-size: 2.5em; }
+  font-size: 2.5em;
+  margin: 2em 0; }
 
 .wcorg-sponsors h3 {
-  font-size: 2.2em; }
+  font-size: 2.2em;
+  margin: 1.5em 0; }
 
 .wcorg-sponsor-description img {
   margin-left: 0;
