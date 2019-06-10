@@ -129,6 +129,22 @@ table.wp-block-table {
     padding: 1rem 0.5rem;
     border-bottom: 1px solid #E6E6E6; }
 
+.wcorg-sponsors h2 {
+  font-size: 2.5em; }
+
+.wcorg-sponsors h3 {
+  font-size: 2.2em; }
+
+.wcorg-sponsor-description img {
+  margin-left: 0;
+    margin-left-border: 4px solid #3E3E3E;
+    margin-left-padding: 20px;
+    margin-left-box-sizing: content-box;
+    margin-left-float: left;
+    margin-left-margin: 20px 40px 20px 0;
+    margin-left-max-width: 300px;
+    margin-left-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25); }
+
 header.site-header, ul.menu {
   display: flex;
   flex-flow: row wrap;
