@@ -122,7 +122,7 @@ header#masthead {
 table {
   width: 100%;
   border-collapse: collapse; }
-  table tr:first-child td {
+  table tr th td {
     font-family: "Fira Sans Condensed", "Century Gothic", CenturyGothic, AppleGothic, monospace;
     font-size: 1.2rem; }
   table tr td {
