@@ -122,12 +122,12 @@ header#masthead {
 table {
   width: 100%;
   border-collapse: collapse; }
-  table tr th td {
+  table tr {
     font-family: "Fira Sans Condensed", "Century Gothic", CenturyGothic, AppleGothic, monospace;
     font-size: 1.2rem; }
-  table tr td {
-    padding: 1rem 0.5rem;
-    border-bottom: 1px solid #E6E6E6; }
+    table tr td {
+      padding: 1rem 0.5rem;
+      border-bottom: 1px solid #E6E6E6; }
 
 .wcorg-sponsors h2 {
   font-size: 4em;
