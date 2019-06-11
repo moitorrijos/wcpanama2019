@@ -340,6 +340,15 @@ button[type="submit"], input[type="submit"] {
   padding: 0.5rem 2rem;
   font-size: 1.1rem; }
 
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  padding: 0.5em 1em;
+  border-right: 24px solid #041178;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px #3E3E3E; }
+
 footer.site-footer {
   padding: 40px 60px;
   color: white;
