@@ -192,28 +192,6 @@ table.tix_tickets_table tr td {
 .wcorg-sponsor-level-bronze img {
   border: 4px solid #B4A425; }
 
-footer.site-footer .siguenos {
-  width: 306px;
-  margin: 0 auto 60px;
-  padding: 40px 0;
-  border-bottom: 4px solid white; }
-  footer.site-footer .siguenos p {
-    text-align: center;
-    font-size: 1.2rem;
-    letter-spacing: 1px;
-    margin: 0.5rem 0; }
-  footer.site-footer .siguenos ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    margin: 0;
-    padding: 0; }
-    footer.site-footer .siguenos ul li {
-      width: 30px;
-      height: 30px; }
-      footer.site-footer .siguenos ul li img {
-        width: 100%; }
-
 header.site-header, ul.menu {
   display: flex;
   flex-flow: row wrap;
@@ -401,3 +379,24 @@ footer.site-footer {
     font-size: 0.8rem; }
     footer.site-footer .site-info span[role="separator"] {
       display: none; }
+  footer.site-footer .siguenos {
+    width: 306px;
+    margin: 0 auto 60px;
+    padding: 40px 0;
+    border-bottom: 4px solid white; }
+    footer.site-footer .siguenos p {
+      text-align: center;
+      font-size: 1.2rem;
+      letter-spacing: 1px;
+      margin: 0.5rem 0; }
+    footer.site-footer .siguenos ul {
+      display: flex;
+      justify-content: space-around;
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+      footer.site-footer .siguenos ul li {
+        width: 30px;
+        height: 30px; }
+        footer.site-footer .siguenos ul li img {
+          width: 100%; }
