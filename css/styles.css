@@ -130,8 +130,10 @@ table.wp-block-table {
     border-bottom: 1px solid #E6E6E6; }
 
 .wcorg-sponsors h2 {
-  font-size: 2.5em;
-  margin: 0.75em 0; }
+  font-size: 4em;
+  margin: .5em 0;
+  text-transform: uppercase;
+  letter-spacing: 4px; }
 
 .wcorg-sponsors h3 {
   font-size: 2.2em;
@@ -146,6 +148,14 @@ table.wp-block-table {
   margin: 20px 40px 20px 0;
   max-width: 300px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25); }
+
+.wcorg-sponsor-level-oro h2 {
+  color: gold;
+  text-shadow: 0 2px 3px #B4A425; }
+
+.wcorg-sponsor-level-plata h2 {
+  color: silver;
+  text-shadow: 0 2px 2px #636d75; }
 
 header.site-header, ul.menu {
   display: flex;
