@@ -84,20 +84,28 @@ header#masthead
 	
 .wcorg-organizer
 	width: 425px
+	box-shadow: 0 2px 4px transparentize($dark-gray, 0.75)
+	position: relative
+	padding: 10em 10px 30px
+	background: linear-gradient(lighten($clear-gray, 10%) 60%, $clear-gray)
+	border-radius: 18px
+	margin-bottom: 4em
 	
 .wcorg-organizer-description
 	display: flex
-	flex-flow: row wrap
-	justify-content: space-between
+	flex-flow: column
+	align-items: center
+	
+	h2
+		text-align: center
 	
 	img
-		width: 100px
-		height: 100px
-
-	p
-		margin-top: 0 
-		width: 300px
-
+		width: 120px
+		height: 120px
+		border-radius: 50%
+		position: absolute
+		top: 2em
+		
 table
 	width: 100%
 	border-collapse: collapse
