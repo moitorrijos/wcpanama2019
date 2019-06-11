@@ -150,16 +150,16 @@ table.wp-block-table {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25); }
 
 .wcorg-sponsor-level-oro h2 {
-  color: gold;
-  text-shadow: 0 2px 3px #B4A425; }
+  color: #ffd700;
+  text-shadow: 0 2px 3px #ccac00; }
 
 .wcorg-sponsor-level-plata h2 {
-  color: silver;
-  text-shadow: 0 2px 2px #636d75; }
+  color: #CCCCCC;
+  text-shadow: 0 2px 2px #b3b3b3; }
 
 .wcorg-sponsor-level-bronze h2 {
-  color: #e6c200;
-  text-shadow: 0 2px 3px #9f9121; }
+  color: #B4A425;
+  text-shadow: 0 2px 3px #8a7d1c; }
 
 header.site-header, ul.menu {
   display: flex;
