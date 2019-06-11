@@ -129,6 +129,15 @@ table {
     padding: 1rem 0.5rem;
     border-bottom: 1px solid #E6E6E6; }
 
+table.tix_tickets_table tr th:first-child {
+  width: 450px; }
+
+table.tix_tickets_table tr td:first-child {
+  text-align: left; }
+
+table.tix_tickets_table tr td {
+  text-align: center; }
+
 .wcorg-sponsors h2 {
   font-size: 4em;
   margin: .5em 0;
