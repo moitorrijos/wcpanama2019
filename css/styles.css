@@ -110,8 +110,7 @@ header#masthead {
 .wcorg-organizer-description {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: end; }
+  justify-content: space-between; }
   .wcorg-organizer-description img {
     width: 100px;
     height: 100px; }
