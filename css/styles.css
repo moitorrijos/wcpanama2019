@@ -157,6 +157,10 @@ table.wp-block-table {
   color: silver;
   text-shadow: 0 2px 2px #636d75; }
 
+.wcorg-sponsor-level-bronze h2 {
+  color: #e6c200;
+  text-shadow: 0 2px 3px #9f9121; }
+
 header.site-header, ul.menu {
   display: flex;
   flex-flow: row wrap;
