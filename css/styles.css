@@ -119,13 +119,13 @@ header#masthead {
     margin-top: 0;
     width: 300px; }
 
-table.wp-block-table {
+table {
   width: 100%;
   border-collapse: collapse; }
-  table.wp-block-table tr:first-child td {
+  table tr:first-child td {
     font-family: "Fira Sans Condensed", "Century Gothic", CenturyGothic, AppleGothic, monospace;
     font-size: 1.2rem; }
-  table.wp-block-table tr td {
+  table tr td {
     padding: 1rem 0.5rem;
     border-bottom: 1px solid #E6E6E6; }
 
