@@ -167,6 +167,9 @@ table.tix_tickets_table tr td {
   margin: 20px 40px 20px 0;
   max-width: 300px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25); }
+  @media only screen and (max-width: 600px) {
+    .wcorg-sponsor-description img {
+      max-width: 175px; } }
 
 .wcorg-sponsor-level-oro h2 {
   color: #ffd700;
