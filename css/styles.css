@@ -321,7 +321,7 @@ form.contact-form input, form.contact-form textarea {
   border: 2px solid #041178;
   border-radius: 4px; }
 
-form.contact-form button[type="submit"], form.contact-form input[type="submit"] {
+form.contact-form [type="submit"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   -ms-appearance: none;
