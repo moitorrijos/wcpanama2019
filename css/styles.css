@@ -376,7 +376,9 @@ footer.site-footer {
     flex-flow: row wrap;
     justify-content: space-between;
     padding: 8px 0;
-    font-size: 0.8rem; }
+    font-size: 0.8rem;
+    max-width: 405px;
+    margin: 0 auto; }
     footer.site-footer .site-info span[role="separator"] {
       display: none; }
   footer.site-footer .siguenos {
