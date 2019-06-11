@@ -347,7 +347,7 @@ select {
   padding: 0.5em 1em;
   border-right: 24px solid #041178;
   border-radius: 4px;
-  box-shadow: 0 2px 4px #3E3E3E; }
+  box-shadow: 0 2px 4px rgba(62, 62, 62, 0.25); }
 
 footer.site-footer {
   padding: 40px 60px;
