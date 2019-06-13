@@ -11,7 +11,13 @@ footer.site-footer
 		
 	ul.menu
 		display: block
-		// margin-top: 30px
+		
+		a
+			transition: all 0.25s ease-out			
+		
+		&:hover
+			a
+				transform: translateX(10px)
 		
 		a
 			padding: 0.5rem 2rem
@@ -57,13 +63,6 @@ footer.site-footer
 			li
 				width: 30px 
 				height: 30px 
-				
-				a
-					transition: all 0.25s ease-out			
-				
-				&:hover
-					a
-						transform: translateX(10px)
 				
 				&.meetup
 					width: 42px

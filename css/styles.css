@@ -401,6 +401,10 @@ footer.site-footer {
   footer.site-footer ul.menu {
     display: block; }
     footer.site-footer ul.menu a {
+      transition: all 0.25s ease-out; }
+    footer.site-footer ul.menu:hover a {
+      transform: translateX(10px); }
+    footer.site-footer ul.menu a {
       padding: 0.5rem 2rem; }
   footer.site-footer div#footer-widgets {
     margin: 0 auto 30px;
@@ -434,10 +438,6 @@ footer.site-footer {
       footer.site-footer .siguenos ul li {
         width: 30px;
         height: 30px; }
-        footer.site-footer .siguenos ul li a {
-          transition: all 0.25s ease-out; }
-        footer.site-footer .siguenos ul li:hover a {
-          transform: translateX(10px); }
         footer.site-footer .siguenos ul li.meetup {
           width: 42px;
           height: 42px; }
