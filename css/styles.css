@@ -368,7 +368,9 @@ select {
   border-right: 24px solid #041178;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(62, 62, 62, 0.25);
-  font-size: 0.9rem; }
+  font-size: 0.9rem;
+  font-family: "Montserrat", "Century Gothic", CenturyGothic, AppleGothic, monospace;
+  color: #3E3E3E; }
 
 footer.site-footer {
   padding: 40px 60px;
