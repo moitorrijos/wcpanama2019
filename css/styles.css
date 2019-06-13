@@ -346,8 +346,7 @@ form input, form textarea {
   padding: 0.75rem 1rem;
   border: 1px solid #646464;
   box-shadow: 0 2px 4px rgba(62, 62, 62, 0.25);
-  border-radius: 4px;
-  width: 90%; }
+  border-radius: 4px; }
 
 button[type="submit"], input[type="submit"] {
   -webkit-appearance: none;
