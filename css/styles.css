@@ -140,15 +140,6 @@ table {
     padding: 1rem 0.5rem;
     border-bottom: 1px solid #E6E6E6; }
 
-table.tix_tickets_table tr th:first-child {
-  width: 450px; }
-
-table.tix_tickets_table tr td:first-child {
-  text-align: left; }
-
-table.tix_tickets_table tr td {
-  text-align: center; }
-
 .wcorg-sponsors h2 {
   font-size: 4em;
   margin: .5em 0;
@@ -338,11 +329,25 @@ body.home #primary {
 #archives, #search, #meta {
   display: none; }
 
-form.contact-form input, form.contact-form textarea {
+table.tix_tickets_table tr th:first-child {
+  width: 450px; }
+
+table.tix_tickets_table tr td:first-child {
+  text-align: left; }
+
+table.tix_tickets_table tr td {
+  text-align: center; }
+
+table.tix_tickets_table.tix-attendee-form td {
+  text-align: left; }
+
+form input, form textarea {
   font-size: 1rem;
   padding: 0.75rem 1rem;
-  border: 2px solid #041178;
-  border-radius: 4px; }
+  border: 2px solid #3E3E3E;
+  box-shadow: 0 2px 4px rgba(62, 62, 62, 0.25);
+  border-radius: 4px;
+  width: 90%; }
 
 button[type="submit"], input[type="submit"] {
   -webkit-appearance: none;
