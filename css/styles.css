@@ -392,7 +392,8 @@ select {
 footer.site-footer {
   padding: 40px 0;
   color: white;
-  background: #041178; }
+  background: #041178;
+  border-top: 1rem solid #ff2200; }
   footer.site-footer a {
     color: white;
     text-decoration: none;
