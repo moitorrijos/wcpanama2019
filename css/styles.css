@@ -398,7 +398,10 @@ footer.site-footer {
     text-decoration: none;
     font-style: italic; }
   footer.site-footer ul.menu {
-    display: block; }
+    display: block;
+    margin-top: 30px; }
+    footer.site-footer ul.menu a {
+      padding: 0.5rem 2rem; }
   footer.site-footer div#footer-widgets {
     margin: 0 auto 30px;
     display: flex;
