@@ -344,7 +344,7 @@ table.tix_tickets_table.tix-attendee-form td {
 form input, form textarea {
   font-size: 1rem;
   padding: 0.75rem 1rem;
-  border: 2px solid #3E3E3E;
+  border: 1px solid #646464;
   box-shadow: 0 2px 4px rgba(62, 62, 62, 0.25);
   border-radius: 4px;
   width: 90%; }
