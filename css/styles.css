@@ -434,6 +434,10 @@ footer.site-footer {
       footer.site-footer .siguenos ul li {
         width: 30px;
         height: 30px; }
+        footer.site-footer .siguenos ul li a {
+          transition: all 0.25s ease-out; }
+        footer.site-footer .siguenos ul li:hover a {
+          transform: translateX(10px); }
         footer.site-footer .siguenos ul li.meetup {
           width: 42px;
           height: 42px; }
