@@ -59,7 +59,7 @@ p {
   font-weight: 300; }
 
 ul {
-  padding-inline-start: 22px; }
+  padding-left: 22px; }
   ul li {
     margin: 0.5em 0; }
 
@@ -82,14 +82,14 @@ header#masthead {
   z-index: 1; }
 
 #primary {
-  width: 63%;
+  width: 66%;
   min-width: 300px; }
   @media screen and (max-width: 890px) {
     #primary {
       width: 100%; } }
 
 #secondary {
-  width: 300px;
+  width: 290px;
   font-size: 0.9rem; }
   @media screen and (max-width: 890px) {
     #secondary {
