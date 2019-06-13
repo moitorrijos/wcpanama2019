@@ -1,3 +1,6 @@
+#main, footer.site-footer .site-info {
+  max-width: 1120px; }
+
 #primary-sidebar aside.widget_text .textwidget, .cuadros-inicio .cuadro {
   min-width: 300px;
   width: 30%;
@@ -80,7 +83,6 @@ header#masthead {
   z-index: 3; }
 
 #main {
-  max-width: 1120px;
   padding: 20px 40px 40px;
   margin: 0 auto;
   display: flex;
@@ -388,7 +390,7 @@ select {
   color: #3E3E3E; }
 
 footer.site-footer {
-  padding: 40px 60px;
+  padding: 40px 0;
   color: white;
   background: #041178; }
   footer.site-footer a {
@@ -402,7 +404,7 @@ footer.site-footer {
     padding: 8px 0;
     font-size: 0.8rem;
     max-width: 405px;
-    margin: 0 auto; }
+    margin: 0 auto 30px; }
     footer.site-footer .site-info span[role="separator"] {
       display: none; }
   footer.site-footer .siguenos {
