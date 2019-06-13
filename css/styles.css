@@ -341,6 +341,9 @@ table.tix_tickets_table tr td {
 table.tix_tickets_table.tix-attendee-form td {
   text-align: left; }
 
+table tr:nth-child(even) {
+  background: #E6E6E6; }
+
 form input, form textarea {
   font-size: 1rem;
   padding: 0.75rem 1rem;
