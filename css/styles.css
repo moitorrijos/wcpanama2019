@@ -1,4 +1,4 @@
-#main, footer.site-footer .site-info {
+#main, footer.site-footer div#footer-widgets {
   max-width: 1120px; }
 
 #primary-sidebar aside.widget_text .textwidget, .cuadros-inicio .cuadro {
@@ -397,6 +397,11 @@ footer.site-footer {
     color: white;
     text-decoration: none;
     font-style: italic; }
+  footer.site-footer div#footer-widgets {
+    margin: 0 auto 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between; }
   footer.site-footer .site-info {
     display: flex;
     flex-flow: row wrap;
@@ -404,7 +409,7 @@ footer.site-footer {
     padding: 8px 0;
     font-size: 0.8rem;
     max-width: 405px;
-    margin: 0 auto 30px; }
+    margin: 0 auto; }
     footer.site-footer .site-info span[role="separator"] {
       display: none; }
   footer.site-footer .siguenos {

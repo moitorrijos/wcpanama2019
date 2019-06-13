@@ -7,6 +7,14 @@ footer.site-footer
 		text-decoration: none 
 		font-style: italic
 		
+
+	div#footer-widgets
+		@extend %container
+		margin: 0 auto 30px
+		display: flex
+		flex-flow: row wrap
+		justify-content: space-between
+		
 	.site-info
 		display: flex
 		flex-flow: row wrap
@@ -14,8 +22,7 @@ footer.site-footer
 		padding: 8px 0
 		font-size: 0.8rem
 		max-width: 405px
-		margin: 0 auto 30px
-		@extend %container
+		margin: 0 auto
 		
 		span[role="separator"] 
 			display: none
