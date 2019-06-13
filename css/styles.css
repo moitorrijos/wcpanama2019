@@ -402,7 +402,7 @@ footer.site-footer {
     display: block; }
     footer.site-footer ul.menu a {
       transition: all 0.25s ease-out; }
-    footer.site-footer ul.menu:hover > a {
+    footer.site-footer ul.menu li:hover > a {
       transform: translateX(10px); }
     footer.site-footer ul.menu a {
       padding: 0.5rem 2rem; }
