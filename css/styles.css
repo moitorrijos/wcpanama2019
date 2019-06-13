@@ -266,16 +266,16 @@ ul.menu {
       opacity: 1;
       visibility: visible; }
 
-body.home #main, body.page-slug-organizadores #main, body.page-slug-boletos #main, body.page-slug-llamado-a-patrocinadores #main {
+body.home #main, body.page-slug-organizadores #main, body.page-slug-boletos #main {
   flex-flow: column;
   width: 100%; }
-  body.home #main #primary, body.page-slug-organizadores #main #primary, body.page-slug-boletos #main #primary, body.page-slug-llamado-a-patrocinadores #main #primary {
+  body.home #main #primary, body.page-slug-organizadores #main #primary, body.page-slug-boletos #main #primary {
     width: 100%;
     max-width: 1000px;
     min-width: 300px; }
-  body.home #main #secondary, body.page-slug-organizadores #main #secondary, body.page-slug-boletos #main #secondary, body.page-slug-llamado-a-patrocinadores #main #secondary {
+  body.home #main #secondary, body.page-slug-organizadores #main #secondary, body.page-slug-boletos #main #secondary {
     display: none; }
-  body.home #main #main-content, body.page-slug-organizadores #main #main-content, body.page-slug-boletos #main #main-content, body.page-slug-llamado-a-patrocinadores #main #main-content {
+  body.home #main #main-content, body.page-slug-organizadores #main #main-content, body.page-slug-boletos #main #main-content {
     max-width: 1000px; }
 
 body.home #primary {
