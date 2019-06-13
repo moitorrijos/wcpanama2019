@@ -430,11 +430,15 @@ footer.site-footer {
     footer.site-footer .siguenos ul {
       display: flex;
       justify-content: space-around;
+      align-items: center;
       list-style: none;
-      margin: 0;
+      margin: 20px 0;
       padding: 0; }
       footer.site-footer .siguenos ul li {
         width: 30px;
         height: 30px; }
+        footer.site-footer .siguenos ul li.meetup {
+          width: 45px;
+          height: 45px; }
         footer.site-footer .siguenos ul li img {
           width: 100%; }
