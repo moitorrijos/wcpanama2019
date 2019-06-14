@@ -400,6 +400,9 @@ footer.site-footer {
     font-style: italic; }
   footer.site-footer ul.menu {
     display: block; }
+    @media only screen and (max-width: 860px) {
+      footer.site-footer ul.menu {
+        text-align: center; } }
     footer.site-footer ul.menu a {
       transition: all 0.25s ease-out; }
     footer.site-footer ul.menu li:hover > a {
