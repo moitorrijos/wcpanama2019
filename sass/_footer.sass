@@ -28,11 +28,17 @@ footer.site-footer
 		display: flex
 		flex-flow: row wrap
 		justify-content: space-between
-		padding: 8px 0
-		font-size: 0.8rem
 		max-width: 405px
 		margin: 0 auto
 		
+		& > a
+			padding: 8px 20px
+			display: block
+			font-size: 0.76rem
+			
+			@media only screen and (max-width: 380)	
+				text-align: center
+			
 		span[role="separator"] 
 			display: none
 			
