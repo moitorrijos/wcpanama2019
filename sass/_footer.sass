@@ -20,13 +20,6 @@ footer.site-footer
 		
 		a
 			padding: 0.5rem 2rem
-
-	div#footer-widgets
-		@extend %container
-		margin: 0 auto 30px
-		display: flex
-		flex-flow: row wrap
-		justify-content: space-between
 		
 	.site-info
 		display: flex
@@ -42,9 +35,7 @@ footer.site-footer
 			
 	.siguenos
 		width: 306px
-		margin: 0 auto 60px
-		// padding: 40px 0
-		// border-bottom: 4px solid white
+		margin: 0 auto
 
 		p
 			text-align: center
@@ -69,3 +60,18 @@ footer.site-footer
 				
 				img
 					width: 100%
+
+#footer-widgets
+	@extend %container
+	margin: 0 auto 30px
+	display: flex
+	flex-flow: row wrap
+	justify-content: space-between
+	
+	& > div
+		@media only screen and (max-width: 1120px) and (min-width: 860px)
+			width: 30%
+				
+		@media only screen and (max-width: 860px) 
+			width: 100%
+	

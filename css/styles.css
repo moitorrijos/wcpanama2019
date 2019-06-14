@@ -1,4 +1,4 @@
-#main, footer.site-footer div#footer-widgets {
+#main, #footer-widgets {
   max-width: 1120px; }
 
 #primary-sidebar aside.widget_text .textwidget, .cuadros-inicio .cuadro {
@@ -406,11 +406,6 @@ footer.site-footer {
       transform: translateX(10px); }
     footer.site-footer ul.menu a {
       padding: 0.5rem 2rem; }
-  footer.site-footer div#footer-widgets {
-    margin: 0 auto 30px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between; }
   footer.site-footer .site-info {
     display: flex;
     flex-flow: row wrap;
@@ -423,7 +418,7 @@ footer.site-footer {
       display: none; }
   footer.site-footer .siguenos {
     width: 306px;
-    margin: 0 auto 60px; }
+    margin: 0 auto; }
     footer.site-footer .siguenos p {
       text-align: center;
       font-size: 1.2rem;
@@ -443,3 +438,15 @@ footer.site-footer {
           height: 42px; }
         footer.site-footer .siguenos ul li img {
           width: 100%; }
+
+#footer-widgets {
+  margin: 0 auto 30px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between; }
+  @media only screen and (max-width: 1120px) and (min-width: 860px) {
+    #footer-widgets > div {
+      width: 30%; } }
+  @media only screen and (max-width: 860px) {
+    #footer-widgets > div {
+      width: 100%; } }
