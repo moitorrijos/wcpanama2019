@@ -298,6 +298,9 @@ body.home #primary {
     grid-template-rows: repeat(3, auto);
     grid-column-gap: 30px;
     grid-row-gap: 50px; }
+    @media only screen and (max-width: 800px) {
+      body.home #primary .entry-content {
+        grid-template-columns: 1fr; } }
     body.home #primary .entry-content figure {
       display: flex;
       flex-flow: row;
