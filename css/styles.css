@@ -303,6 +303,8 @@ body.home #primary {
       flex-flow: row;
       justify-content: center;
       align-items: center; }
+    body.home #primary .entry-content .home-text {
+      align-self: center; }
     body.home #primary .entry-content .home-text:nth-of-type(odd) {
       grid-column: 1 / 2; }
     body.home #primary .entry-content .home-text:nth-of-type(even) {
