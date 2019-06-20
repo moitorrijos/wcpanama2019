@@ -295,6 +295,7 @@ body.home #primary {
   body.home #primary h2 {
     margin: 0; }
   body.home #primary .entry-content {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, auto);
     grid-gap: 20px; }
