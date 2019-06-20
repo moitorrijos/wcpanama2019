@@ -1,4 +1,4 @@
-#main, #footer-widgets {
+#main, body.home #main #primary, body.page-slug-organizadores #main #primary, body.page-slug-boletos #main #primary, #footer-widgets {
   max-width: 1120px; }
 
 #primary-sidebar aside.widget_text .textwidget, .cuadros-inicio .cuadro {
@@ -279,8 +279,6 @@ body.home #main, body.page-slug-organizadores #main, body.page-slug-boletos #mai
   flex-flow: column;
   width: 100%; }
   body.home #main #primary, body.page-slug-organizadores #main #primary, body.page-slug-boletos #main #primary {
-    width: 100%;
-    max-width: 1000px;
     min-width: 300px; }
   body.home #main #secondary, body.page-slug-organizadores #main #secondary, body.page-slug-boletos #main #secondary {
     display: none; }
