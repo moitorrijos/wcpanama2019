@@ -472,10 +472,14 @@ footer.site-footer {
           width: 100%; }
 
 #footer-widgets {
+  padding: 0 40px;
   margin: 0 auto 30px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between; }
+  @media only screen and (max-width: 1000px) {
+    #footer-widgets {
+      padding: 0; } }
   @media only screen and (max-width: 1120px) and (min-width: 860px) {
     #footer-widgets > div {
       width: 30%; } }
