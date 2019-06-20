@@ -279,6 +279,7 @@ body.home #main, body.page-slug-organizadores #main, body.page-slug-boletos #mai
   flex-flow: column;
   width: 100%; }
   body.home #main #primary, body.page-slug-organizadores #main #primary, body.page-slug-boletos #main #primary {
+    width: 100%;
     min-width: 300px; }
   body.home #main #secondary, body.page-slug-organizadores #main #secondary, body.page-slug-boletos #main #secondary {
     display: none; }
