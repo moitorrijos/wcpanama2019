@@ -28,13 +28,19 @@ body.home
 			display: grid 
 			grid-template-columns: repeat(2, 1fr)
 			grid-template-rows: repeat(6, auto)
-			grid-gap: 20px
+			grid-gap: 30px
 			
 			h2
 				align-self: end
 				
 			p 
 				align-self: start
+				
+			figure
+				display: flex
+				flex-flow: row
+				justify-content: center
+				align-items: center
 			
 			h2:nth-of-type(odd), p:nth-of-type(odd)
 				grid-column: 1 / 2

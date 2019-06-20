@@ -298,11 +298,16 @@ body.home #primary {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, auto);
-    grid-gap: 20px; }
+    grid-gap: 30px; }
     body.home #primary .entry-content h2 {
       align-self: end; }
     body.home #primary .entry-content p {
       align-self: start; }
+    body.home #primary .entry-content figure {
+      display: flex;
+      flex-flow: row;
+      justify-content: center;
+      align-items: center; }
     body.home #primary .entry-content h2:nth-of-type(odd), body.home #primary .entry-content p:nth-of-type(odd) {
       grid-column: 1 / 2; }
     body.home #primary .entry-content h2:nth-of-type(even), body.home #primary .entry-content p:nth-of-type(even) {
