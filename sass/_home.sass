@@ -21,14 +21,20 @@ body.home
 		h1
 			text-align: center
 			
-		h2
+		p, h2
 			margin: 0
-			
+		
 		.entry-content
 			display: grid 
 			grid-template-columns: repeat(2, 1fr)
 			grid-template-rows: repeat(6, auto)
 			grid-gap: 20px
+			
+			h2
+				align-self: end
+				
+			p 
+				align-self: start
 			
 			h2:nth-of-type(odd), p:nth-of-type(odd)
 				grid-column: 1 / 2

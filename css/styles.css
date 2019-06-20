@@ -292,13 +292,17 @@ body.home #primary {
   margin: 20px 0; }
   body.home #primary h1 {
     text-align: center; }
-  body.home #primary h2 {
+  body.home #primary p, body.home #primary h2 {
     margin: 0; }
   body.home #primary .entry-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, auto);
     grid-gap: 20px; }
+    body.home #primary .entry-content h2 {
+      align-self: end; }
+    body.home #primary .entry-content p {
+      align-self: start; }
     body.home #primary .entry-content h2:nth-of-type(odd), body.home #primary .entry-content p:nth-of-type(odd) {
       grid-column: 1 / 2; }
     body.home #primary .entry-content h2:nth-of-type(even), body.home #primary .entry-content p:nth-of-type(even) {
