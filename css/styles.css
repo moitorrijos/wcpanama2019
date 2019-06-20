@@ -311,6 +311,8 @@ body.home #primary {
       grid-column: 2 / 3; }
     body.home #primary .entry-content figure:nth-of-type(even) {
       grid-column: 1 / 2; }
+    body.home #primary .entry-content figure:nth-of-type(2) {
+      grid-row: 2 / 3; }
 
 .cuadros-inicio {
   display: flex;
