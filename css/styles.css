@@ -321,7 +321,7 @@ body.home #primary {
       transform: rotate(-10deg);
       border-left: 50px solid #020a47;
       border-right-color: transparent;
-      right: -127px; }
+      right: -107px; }
   body.home #primary .entry-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
