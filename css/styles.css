@@ -311,15 +311,17 @@ body.home #primary {
         body.home #primary h1.entry-title::before, body.home #primary h1.entry-title::after {
           display: none; } }
     body.home #primary h1.entry-title::before {
+      left: -127px;
       transform-origin: left bottom;
       transform: rotate(10deg);
       border-right: 50px solid #020a47;
       border-left-color: transparent; }
     body.home #primary h1.entry-title::after {
       transform-origin: right top;
-      transform: rotate(10deg);
+      transform: rotate(-10deg);
       border-left: 50px solid #020a47;
-      boder-right-color: transparent; }
+      border-right-color: transparent;
+      right: -127px; }
   body.home #primary .entry-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

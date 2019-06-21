@@ -40,7 +40,8 @@ body.home
 				@media only screen and (max-width: 800px) 
 					display: none
 				
-			&::before
+			&::before 
+				left: -127px			
 				transform-origin: left bottom
 				transform: rotate(10deg) 
 				border-right: 50px solid darken($dark-blue, 10%)												
@@ -48,9 +49,10 @@ body.home
 				
 			&::after
 				transform-origin: right top
-				transform: rotate(10deg)
+				transform: rotate(-10deg)
 				border-left: 50px solid darken($dark-blue, 10%)
-				boder-right-color: transparent
+				border-right-color: transparent
+				right: -127px
 					
 		.entry-content
 			display: grid 
