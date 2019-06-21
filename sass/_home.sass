@@ -23,13 +23,35 @@ body.home
 			text-transform: uppercase
 			padding: 2rem 0
 			font-size: 2.7rem
-			letter-spacing: -1px
 			color: lighten($clear-gray, 5%)
 			position: relative
 			margin-bottom: 2rem
 			background-color: $dark-blue
+			position: relative
 			
-		
+			&::before, &::after
+				content: '' 
+				width: 67px
+				height: 0
+				position: absolute
+				top: 41px
+				z-index: -1
+				border: 50px solid desaturate($dark-blue, 10%) 
+				@media only screen and (max-width: 800px) 
+					display: none
+				
+				&::before
+					transform-origin: left bottom
+					transform: rotate(10deg) 
+					border-right: 50px solid darken($dark-blue, 10%)												
+					border-left-color: transparent
+					
+				&::after
+					transform-origin: right top
+					transform: rotate(10deg)
+					border-left: 50px solid darken($dark-blue, 10%)
+					boder-right-color: transparent
+					
 		.entry-content
 			display: grid 
 			@media only screen and (max-width: 800px) 
