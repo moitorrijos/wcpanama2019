@@ -310,16 +310,16 @@ body.home #primary {
       @media only screen and (max-width: 800px) {
         body.home #primary h1.entry-title::before, body.home #primary h1.entry-title::after {
           display: none; } }
-      body.home #primary h1.entry-title::before::before, body.home #primary h1.entry-title::after::before {
-        transform-origin: left bottom;
-        transform: rotate(10deg);
-        border-right: 50px solid #020a47;
-        border-left-color: transparent; }
-      body.home #primary h1.entry-title::before::after, body.home #primary h1.entry-title::after::after {
-        transform-origin: right top;
-        transform: rotate(10deg);
-        border-left: 50px solid #020a47;
-        boder-right-color: transparent; }
+    body.home #primary h1.entry-title::before {
+      transform-origin: left bottom;
+      transform: rotate(10deg);
+      border-right: 50px solid #020a47;
+      border-left-color: transparent; }
+    body.home #primary h1.entry-title::after {
+      transform-origin: right top;
+      transform: rotate(10deg);
+      border-left: 50px solid #020a47;
+      boder-right-color: transparent; }
   body.home #primary .entry-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
