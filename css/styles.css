@@ -247,7 +247,7 @@ ul.menu {
       ul.menu a {
         font-size: 1rem;
         margin: 1rem; }
-        ul.menu a[href="#0"] {
+        ul.menu a[href="#0"], ul.menu a[href="#"] {
           display: none; } }
     @media only screen and (max-width: 768px) {
       ul.menu a {
