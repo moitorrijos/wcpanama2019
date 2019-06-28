@@ -57,8 +57,13 @@ ul.menu
 		font-size: 0.9rem
 		display: block
 		padding: 1em 1.1em
+		@media only screen and (max-width: 600px) 
+			&[href="#0"] 
+				display: none
+
 		@media only screen and (max-width: 768px)
 			padding: 0.5em
+		
 	li
 		position: relative
 		
@@ -82,6 +87,7 @@ ul.menu
 			@media only screen and (max-width: 600px) 
 				position: relative
 				visibility: visible
+				opacity: 1
 				display: block
 			
 			li
@@ -90,9 +96,10 @@ ul.menu
 			a
 				padding: 1.5em
 				padding-right: 3em
+				transition: all 0.25s ease-out
+				
 				@media only screen and (max-width: 600px) 
-					padding-right: 1.5rem
-				transition: all 0.25s ease-in
+					padding: .5rem
 				
 				&:hover
 					background: lighten($dark-blue, 5%)
