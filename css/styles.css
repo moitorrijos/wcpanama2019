@@ -262,6 +262,7 @@ ul.menu {
       position: absolute;
       display: flex;
       flex-flow: column;
+      margin: 0;
       padding: 0;
       opacity: 0;
       background: #041178;
@@ -276,10 +277,10 @@ ul.menu {
           opacity: 1;
           display: block; } }
       ul.menu li ul.sub-menu li {
-        list-style: none; }
+        list-style: none;
+        margin: 0; }
       ul.menu li ul.sub-menu a {
-        padding: 1.5em;
-        padding-right: 3em;
+        padding: 1rem 2rem;
         transition: all 0.25s ease-out; }
         @media only screen and (max-width: 600px) {
           ul.menu li ul.sub-menu a {
