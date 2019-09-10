@@ -192,6 +192,13 @@ table {
 .wcorg-sponsor-level-bronze img {
   border: 4px solid #B4A425; }
 
+.wcorg-sponsor-level-freelancer h2 {
+  color: #471B90;
+  text-shadow: 0 2px 3px darnek(#471B90, 10%); }
+
+.wcorg-sponsor-level-freelancer img {
+  border: 4px solid #471B90; }
+
 header.site-header, ul.menu {
   display: flex;
   flex-flow: row wrap;
