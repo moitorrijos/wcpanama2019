@@ -85,9 +85,9 @@ header#masthead
 		@extend %card
 
 .wcorg-organizers, .wcorg-speakers
-	display: flex
-	flex-flow: row wrap
-	justify-content: space-between
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr) );
+  grid-gap: 30px;
 	
 .wcorg-organizer
   width: 100%
