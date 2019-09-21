@@ -113,7 +113,7 @@ header#masthead {
   flex-flow: row wrap;
   justify-content: space-between; }
 
-.wcorg-organizer, .wcorg-speakers {
+.wcorg-organizer, .wcorg-speaker {
   width: 405px;
   box-shadow: 0 4px 12px rgba(62, 62, 62, 0.25);
   position: relative;
@@ -121,7 +121,7 @@ header#masthead {
   background-image: linear-gradient(#041178 150px, #f3f3f3 150px);
   border-radius: 4px;
   margin-bottom: 4em; }
-  .wcorg-organizer h2, .wcorg-speakers h2 {
+  .wcorg-organizer h2, .wcorg-speaker h2 {
     text-align: center;
     letter-spacing: -1px; }
 
@@ -139,7 +139,7 @@ header#masthead {
     border: 6px solid #f3f3f3;
     pointer-events: none; }
 
-.wcorg-speakers {
+.wcorg-speaker {
   width: 205px; }
 
 table {
