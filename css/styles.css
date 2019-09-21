@@ -109,12 +109,13 @@ header#masthead {
   line-height: 1; }
 
 .wcorg-organizers, .wcorg-speakers {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between; }
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-gap: 30px; }
 
 .wcorg-organizer, .wcorg-speaker {
-  width: 405px;
+  max-width: 405px;
+    max-width-width: 100%;
   box-shadow: 0 4px 12px rgba(62, 62, 62, 0.25);
   position: relative;
   padding: 181px 47px 2em;
@@ -140,7 +141,6 @@ header#masthead {
     pointer-events: none; }
 
 .wcorg-speaker {
-  width: 100%;
   max-width: 305px; }
 
 table {
