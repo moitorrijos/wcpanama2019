@@ -125,11 +125,11 @@ header#masthead {
     text-align: center;
     letter-spacing: -1px; }
 
-.wcorg-organizer-description {
+.wcorg-organizer-description, .wcorg-speaker-description {
   display: flex;
   flex-flow: column;
   align-items: center; }
-  .wcorg-organizer-description img {
+  .wcorg-organizer-description img, .wcorg-speaker-description img {
     width: 140px;
     height: 140px;
     border-radius: 50%;
@@ -140,7 +140,7 @@ header#masthead {
     pointer-events: none; }
 
 .wcorg-speaker {
-  width: 205px; }
+  width: 305px; }
 
 table {
   width: 100%;
