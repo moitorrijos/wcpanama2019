@@ -140,7 +140,8 @@ header#masthead {
     pointer-events: none; }
 
 .wcorg-speaker {
-  width: 305px; }
+  width: 100%;
+  max-width: 305px; }
 
 table {
   width: 100%;
