@@ -84,7 +84,7 @@ header#masthead
 	aside.widget_text .textwidget
 		@extend %card
 
-.wcorg-organizers
+.wcorg-organizers, .wcorg-speakers
 	display: flex
 	flex-flow: row wrap
 	justify-content: space-between
@@ -117,6 +117,10 @@ header#masthead
 		border: 6px solid lighten($clear-gray, 5%)
 		pointer-events: none
 		
+.wcorg-speakers
+  @extend .wcorg-organizer
+  width: 205px
+
 table
 	width: 100%
 	border-collapse: collapse
