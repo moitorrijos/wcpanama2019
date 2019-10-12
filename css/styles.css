@@ -447,7 +447,7 @@ table {
 
 table.programa-wcpanama-2019 tr th {
   background-color: #041178;
-  padding: 0.5rem 1rem;
+  padding: 1rem 1.5rem;
   line-height: 1.1;
   color: #E6E6E6; }
   table.programa-wcpanama-2019 tr th:first-child {
@@ -455,7 +455,7 @@ table.programa-wcpanama-2019 tr th {
 
 table.programa-wcpanama-2019 tr td[colspan="3"] {
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-align: center; }
 
 form input, form textarea {
