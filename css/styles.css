@@ -456,6 +456,9 @@ table.programa-wcpanama-2019 tr th {
   table.programa-wcpanama-2019 tr th:first-child {
     width: 225px; }
 
+table.programa-wcpanama-2019 tr td:first-child {
+  text-align: right; }
+
 table.programa-wcpanama-2019 tr td[colspan="3"] {
   font-weight: bold; }
 
