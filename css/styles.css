@@ -448,23 +448,23 @@ table {
     font-family: "Montserrat", "Century Gothic", CenturyGothic, AppleGothic, monospace;
     font-size: 1.1rem; }
 
-table.programa-wcpanama-2019 tr th {
-  background-color: #041178;
-  padding: 1rem 1.5rem;
-  line-height: 1.1;
-  color: #E6E6E6; }
-  table.programa-wcpanama-2019 tr th:first-child {
-    width: 200px; }
-
-table.programa-wcpanama-2019 tr td:first-child {
-  text-align: right; }
-
-table.programa-wcpanama-2019 tr td[colspan="3"] {
-  font-weight: bold; }
-
-table.programa-wcpanama-2019 tr.break td {
-  background-color: #061bc2;
-  color: #E6E6E6; }
+table.programa-wcpanama-2019 {
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(62, 62, 62, 0.25); }
+  table.programa-wcpanama-2019 tr th {
+    background-color: #041178;
+    padding: 1rem 1.5rem;
+    line-height: 1.1;
+    color: #E6E6E6; }
+    table.programa-wcpanama-2019 tr th:first-child {
+      width: 200px; }
+  table.programa-wcpanama-2019 tr td:first-child {
+    text-align: right; }
+  table.programa-wcpanama-2019 tr td[colspan="3"] {
+    font-weight: bold; }
+  table.programa-wcpanama-2019 tr.break td {
+    background-color: #061bc2;
+    color: #E6E6E6; }
 
 form input, form textarea {
   font-size: 1rem;
