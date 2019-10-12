@@ -431,18 +431,6 @@ body.home #primary {
 #archives, #search, #meta {
   display: none; }
 
-table.tix_tickets_table tr th:first-child {
-  width: 450px; }
-
-table.tix_tickets_table tr td:first-child {
-  text-align: left; }
-
-table.tix_tickets_table tr td {
-  text-align: center; }
-
-table.tix_tickets_table.tix-attendee-form td {
-  text-align: left; }
-
 table {
   font-size: 0.8rem; }
   table tr:nth-child(even) {
@@ -456,12 +444,24 @@ table {
     font-family: "Montserrat", "Century Gothic", CenturyGothic, AppleGothic, monospace;
     font-size: 1.1rem; }
 
+table.tix_tickets_table tr th:first-child {
+  width: 450px; }
+
+table.tix_tickets_table tr td:first-child {
+  text-align: left; }
+
+table.tix_tickets_table tr td {
+  text-align: center; }
+
+table.tix_tickets_table.tix-attendee-form td {
+  text-align: left; }
+
 table.programa-wcpanama-2019 {
   box-shadow: 0 2px 4px rgba(62, 62, 62, 0.25);
   margin-bottom: 2rem; }
   table.programa-wcpanama-2019 tr th {
     background-color: #041178;
-    padding: 1rem 1.5rem;
+    padding: 1.5rem 1rem;
     line-height: 1.1;
     color: #E6E6E6;
     text-align: left; }
