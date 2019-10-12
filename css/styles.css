@@ -463,9 +463,11 @@ table.programa-wcpanama-2019 {
     background-color: #041178;
     padding: 1rem 1.5rem;
     line-height: 1.1;
-    color: #E6E6E6; }
+    color: #E6E6E6;
+    text-align: left; }
     table.programa-wcpanama-2019 tr th:first-child {
-      width: 200px; }
+      width: 200px;
+      text-align: center; }
   table.programa-wcpanama-2019 tr td:first-child {
     text-align: center; }
   table.programa-wcpanama-2019 tr td[colspan="3"] {
