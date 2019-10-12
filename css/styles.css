@@ -463,7 +463,8 @@ table.programa-wcpanama-2019 tr td[colspan="3"] {
   font-weight: bold; }
 
 table.programa-wcpanama-2019 tr.break td {
-  background-color: #6ad3d5; }
+  background-color: #061bc2;
+  color: #E6E6E6; }
 
 form input, form textarea {
   font-size: 1rem;
