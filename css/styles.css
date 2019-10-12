@@ -206,7 +206,8 @@ table {
 .anuncio-programa {
   background: #ffd700;
   border: 1px solid #ccac00;
-  padding: 1rem 2rem; }
+  padding: 1rem 2rem;
+  color: #000000; }
 
 header.site-header, ul.menu {
   display: flex;
