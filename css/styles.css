@@ -203,6 +203,11 @@ table {
 .wcorg-sponsor-level-freelancer img {
   border: 4px solid #471B90; }
 
+.anuncio-programa {
+  background: #ffd700;
+  border: 1px solid #ccac00;
+  padding: 1rem 2rem; }
+
 header.site-header, ul.menu {
   display: flex;
   flex-flow: row wrap;
