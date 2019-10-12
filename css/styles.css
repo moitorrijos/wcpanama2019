@@ -215,6 +215,9 @@ table {
   width: 0.7rem;
   height: 0.7rem; }
 
+.overflow-x {
+  overflow-x: scroll; }
+
 header.site-header, ul.menu {
   display: flex;
   flex-flow: row wrap;
