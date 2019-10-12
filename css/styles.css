@@ -210,8 +210,8 @@ table {
   color: #000000; }
 
 .dashicons.dashicons.dashicons {
-  width: 1rem;
-  height: 1rem; }
+  width: 0.75rem;
+  height: 0.75rem; }
 
 header.site-header, ul.menu {
   display: flex;
