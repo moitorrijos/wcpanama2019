@@ -425,13 +425,13 @@ body.home #primary {
 #archives, #search, #meta {
   display: none; }
 
-table.tix_tickets_table tr th:first-child {
+table.tix_tickets_table tr th:first-child, table.programa-wcpanama-2019 tr th:first-child {
   width: 450px; }
 
-table.tix_tickets_table tr td:first-child {
+table.tix_tickets_table tr td:first-child, table.programa-wcpanama-2019 tr td:first-child {
   text-align: left; }
 
-table.tix_tickets_table tr td {
+table.tix_tickets_table tr td, table.programa-wcpanama-2019 tr td {
   text-align: center; }
 
 table.tix_tickets_table.tix-attendee-form td {
