@@ -40,8 +40,7 @@ body {
 
 a {
   color: #041178;
-  text-decoration: none;
-  font-style: italic; }
+  text-decoration: none; }
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
@@ -211,6 +210,8 @@ table {
   padding: 1rem 2rem;
   color: #000000;
   margin-bottom: 2rem; }
+  .anuncio-programa a {
+    font-style: italic; }
 
 .dashicons.dashicons.dashicons {
   width: 0.7rem;
