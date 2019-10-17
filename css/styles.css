@@ -1,4 +1,4 @@
-#main, body.home #main #primary, body.page-slug-organizadores #main #primary, body.page-slug-boletos #main #primary, body.page-slug-speakers #main #primary, body.page-slug-programa #main #primary, #footer-widgets {
+#main, body.home #main #primary, body.page-slug-organizadores #main #primary, body.page-slug-boletos #main #primary, body.page-slug-speakers #main #primary, body.page-slug-programa #main #primary, body.page-slug-programa-2 #main #primary, #footer-widgets {
   max-width: 1120px; }
 
 #primary-sidebar aside.widget_text .textwidget, .cuadros-inicio .cuadro {
@@ -321,15 +321,15 @@ ul.menu {
       opacity: 1;
       visibility: visible; }
 
-body.home #main, body.page-slug-organizadores #main, body.page-slug-boletos #main, body.page-slug-speakers #main, body.page-slug-programa #main {
+body.home #main, body.page-slug-organizadores #main, body.page-slug-boletos #main, body.page-slug-speakers #main, body.page-slug-programa #main, body.page-slug-programa-2 #main {
   flex-flow: column;
   width: 100%; }
-  body.home #main #primary, body.page-slug-organizadores #main #primary, body.page-slug-boletos #main #primary, body.page-slug-speakers #main #primary, body.page-slug-programa #main #primary {
+  body.home #main #primary, body.page-slug-organizadores #main #primary, body.page-slug-boletos #main #primary, body.page-slug-speakers #main #primary, body.page-slug-programa #main #primary, body.page-slug-programa-2 #main #primary {
     width: 100%;
     min-width: 300px; }
-  body.home #main #secondary, body.page-slug-organizadores #main #secondary, body.page-slug-boletos #main #secondary, body.page-slug-speakers #main #secondary, body.page-slug-programa #main #secondary {
+  body.home #main #secondary, body.page-slug-organizadores #main #secondary, body.page-slug-boletos #main #secondary, body.page-slug-speakers #main #secondary, body.page-slug-programa #main #secondary, body.page-slug-programa-2 #main #secondary {
     display: none; }
-  body.home #main #main-content, body.page-slug-organizadores #main #main-content, body.page-slug-boletos #main #main-content, body.page-slug-speakers #main #main-content, body.page-slug-programa #main #main-content {
+  body.home #main #main-content, body.page-slug-organizadores #main #main-content, body.page-slug-boletos #main #main-content, body.page-slug-speakers #main #main-content, body.page-slug-programa #main #main-content, body.page-slug-programa-2 #main #main-content {
     max-width: 1000px; }
 
 body.home #primary {
